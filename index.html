@@ -97,6 +97,57 @@
   }
   a.tag:hover { text-decoration: underline; }
 
+  .tops { position: relative; }
+  .tops > input { position: absolute; top: 0; opacity: 0; pointer-events: none; }
+  .seg {
+    display: inline-flex; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 999px; padding: 3px; margin-bottom: 8px;
+  }
+  .seg label {
+    padding: 6px 16px; border-radius: 999px; cursor: pointer;
+    font-size: 14px; font-weight: 500; color: var(--muted);
+  }
+  .seg label:hover { color: var(--text); }
+  #p-week:checked ~ .seg label[for="p-week"],
+  #p-month:checked ~ .seg label[for="p-month"],
+  #p-quarter:checked ~ .seg label[for="p-quarter"] { background: var(--accent-soft); color: var(--accent); }
+  #p-week:focus-visible ~ .seg label[for="p-week"],
+  #p-month:focus-visible ~ .seg label[for="p-month"],
+  #p-quarter:focus-visible ~ .seg label[for="p-quarter"] { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .panel { display: none; }
+  #p-week:checked ~ #panel-week,
+  #p-month:checked ~ #panel-month,
+  #p-quarter:checked ~ #panel-quarter { display: block; }
+  .caption { color: var(--muted); font-size: 14px; margin: 4px 0 12px; }
+
+  .top {
+    list-style: none; margin: 0; padding: 0; counter-reset: rank;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  }
+  .top li {
+    counter-increment: rank; display: grid; grid-template-columns: 28px 1fr auto;
+    gap: 12px; align-items: baseline; padding: 12px 16px; border-top: 1px solid var(--border);
+  }
+  .top li:first-child { border-top: none; }
+  .top li::before {
+    content: counter(rank); color: var(--muted);
+    font: 500 13px/1 "JetBrains Mono", ui-monospace, monospace;
+  }
+  .repo { min-width: 0; }
+  .repo a { color: var(--text); font-weight: 600; text-decoration: none; overflow-wrap: anywhere; }
+  .repo a:hover { color: var(--accent); }
+  .repo .owner { color: var(--muted); font-weight: 400; }
+  .repo p { margin: 2px 0 0; color: var(--muted); font-size: 14px; line-height: 1.5; }
+  .cat {
+    display: inline-block; margin-left: 6px; font-size: 11px; font-weight: 500;
+    border: 1px solid var(--border); border-radius: 999px; padding: 0 8px;
+    color: var(--muted); vertical-align: 2px;
+  }
+  .stars {
+    font: 500 14px/1 "JetBrains Mono", ui-monospace, monospace;
+    color: var(--good); white-space: nowrap;
+  }
+
   .pick { border-left: 3px solid var(--good); padding: 4px 0 4px 16px; margin: 0 0 18px; }
   .pick strong { display: block; margin-bottom: 2px; }
   .pick p { margin: 0; }
@@ -128,6 +179,64 @@
 </header>
 
 <main>
+
+<h2>Топ по звёздам</h2>
+
+<div class="tops">
+  <input type="radio" name="period" id="p-week" checked>
+  <input type="radio" name="period" id="p-month">
+  <input type="radio" name="period" id="p-quarter">
+  <div class="seg">
+    <label for="p-week">Неделя</label>
+    <label for="p-month">Месяц</label>
+    <label for="p-quarter">Квартал</label>
+  </div>
+  <div class="panel" id="panel-week">
+    <p class="caption">Неделя 39 · 22–30 сентября</p>
+    <ol class="top">
+      <li><div class="repo"><a href="https://github.com/debpalash/VoiceStudio"><span class="owner">debpalash/</span>VoiceStudio</a><p>Локальная замена ElevenLabs: клонирование голоса, дубляж, TTS</p></div><span class="stars">+8.8k</span></li>
+      <li><div class="repo"><a href="https://github.com/vectorize-io/hindsight"><span class="owner">vectorize-io/</span>hindsight</a> <span class="cat">память</span><p>Память агента, которая учится</p></div><span class="stars">+5.9k</span></li>
+      <li><div class="repo"><a href="https://github.com/paperclipai/paperclip"><span class="owner">paperclipai/</span>paperclip</a> <span class="cat">оркестрация</span><p>Управление агентами на работе</p></div><span class="stars">+5.0k</span></li>
+      <li><div class="repo"><a href="https://github.com/deepseek-ai/deepseek-harness"><span class="owner">deepseek-ai/</span>deepseek-harness</a> <span class="cat">harness</span><p>Официальный агентный harness DeepSeek</p></div><span class="stars">+2.8k</span></li>
+      <li><div class="repo"><a href="https://github.com/NVIDIA/OpenShell"><span class="owner">NVIDIA/</span>OpenShell</a> <span class="cat">безопасность</span><p>Изолированный рантайм для автономных агентов</p></div><span class="stars">+2.1k</span></li>
+      <li><div class="repo"><a href="https://github.com/yetone/magpie"><span class="owner">yetone/</span>magpie</a><p>Любая модель под любой harness: Codex на DeepSeek, Claude Code на Kimi</p></div><span class="stars">+1.9k</span></li>
+      <li><div class="repo"><a href="https://github.com/VectifyAI/PageIndex"><span class="owner">VectifyAI/</span>PageIndex</a> <span class="cat">RAG</span><p>RAG без векторов, на reasoning по индексу документа</p></div><span class="stars">+1.7k</span></li>
+      <li><div class="repo"><a href="https://github.com/mvschwarz/openrig"><span class="owner">mvschwarz/</span>openrig</a><p>Claude Code и Codex как одна мультиагентная система</p></div><span class="stars">+1.6k</span></li>
+      <li><div class="repo"><a href="https://github.com/Niko1221/Strata"><span class="owner">Niko1221/</span>Strata</a> <span class="cat">локальные LLM</span><p>MoE на 125B на GPU 12–24 ГБ + 64 ГБ RAM</p></div><span class="stars">+1.5k</span></li>
+      <li><div class="repo"><a href="https://github.com/t8y2/dbx"><span class="owner">t8y2/</span>dbx</a><p>Клиент на 25 МБ для 100+ СУБД, со встроенными AI, MCP и CLI</p></div><span class="stars">+1.4k</span></li>
+    </ol>
+  </div>
+  <div class="panel" id="panel-month">
+    <p class="caption">Сентябрь 2026 · на 30.09</p>
+    <ol class="top">
+      <li><div class="repo"><a href="https://github.com/debpalash/VoiceStudio"><span class="owner">debpalash/</span>VoiceStudio</a><p>Голосовой AI, полностью локально</p></div><span class="stars">+36k</span></li>
+      <li><div class="repo"><a href="https://github.com/tt-a1i/archify"><span class="owner">tt-a1i/</span>archify</a> <span class="cat">skill</span><p>Skill для архитектурных и data-flow диаграмм в HTML</p></div><span class="stars">+35.9k</span></li>
+      <li><div class="repo"><a href="https://github.com/deepseek-ai/deepseek-harness"><span class="owner">deepseek-ai/</span>deepseek-harness</a><p>Второй месяц в топе после взрыва в августе</p></div><span class="stars">+34k</span></li>
+      <li><div class="repo"><a href="https://github.com/DietrichGebert/ponytail"><span class="owner">DietrichGebert/</span>ponytail</a> <span class="cat">skill</span><p>Агент думает как ленивый сеньор: лучший код — ненаписанный</p></div><span class="stars">+30.1k</span></li>
+      <li><div class="repo"><a href="https://github.com/mattpocock/skills"><span class="owner">mattpocock/</span>skills</a> <span class="cat">skill</span><p>Skills для инженеров, третий месяц подряд в топе</p></div><span class="stars">+29.4k</span></li>
+      <li><div class="repo"><a href="https://github.com/affaan-m/ECC"><span class="owner">affaan-m/</span>ECC</a> <span class="cat">harness</span><p>Оптимизация harness: skills, память, безопасность</p></div><span class="stars">+24.5k</span></li>
+      <li><div class="repo"><a href="https://github.com/stablyai/orca"><span class="owner">stablyai/</span>orca</a> <span class="cat">оркестрация</span><p>Среда для флота параллельных coding-агентов</p></div><span class="stars">+23.4k</span></li>
+      <li><div class="repo"><a href="https://github.com/vectorize-io/hindsight"><span class="owner">vectorize-io/</span>hindsight</a><p>Память агентов</p></div><span class="stars">+21.1k</span></li>
+      <li><div class="repo"><a href="https://github.com/alibaba/open-code-review"><span class="owner">alibaba/</span>open-code-review</a><p>Code review: детерминированные пайплайны + LLM-агент</p></div><span class="stars">+20.9k</span></li>
+      <li><div class="repo"><a href="https://github.com/cloudflare/security-audit-skill"><span class="owner">cloudflare/</span>security-audit-skill</a> <span class="cat">безопасность</span><p>Многофазный аудит безопасности с верифицированными находками</p></div><span class="stars">+20.1k</span></li>
+    </ol>
+  </div>
+  <div class="panel" id="panel-quarter">
+    <p class="caption">Июль–сентябрь 2026 · сумма по месяцам</p>
+    <ol class="top">
+      <li><div class="repo"><a href="https://github.com/deepseek-ai/deepseek-harness"><span class="owner">deepseek-ai/</span>deepseek-harness</a><p>+191k только за август — рекорд квартала</p></div><span class="stars">≈225k</span></li>
+      <li><div class="repo"><a href="https://github.com/mattpocock/skills"><span class="owner">mattpocock/</span>skills</a><p>Стабильный лидер skills-экосистемы</p></div><span class="stars">≈118k</span></li>
+      <li><div class="repo"><a href="https://github.com/stablyai/orca"><span class="owner">stablyai/</span>orca</a><p>Ровно ~23k каждый месяц — устойчивый спрос</p></div><span class="stars">≈71k</span></li>
+      <li><div class="repo"><a href="https://github.com/tt-a1i/archify"><span class="owner">tt-a1i/</span>archify</a><p>Диаграммы как skill</p></div><span class="stars">≈66k</span></li>
+      <li><div class="repo"><a href="https://github.com/DietrichGebert/ponytail"><span class="owner">DietrichGebert/</span>ponytail</a><p>Поведенческий skill против переусложнения</p></div><span class="stars">≈55k</span></li>
+      <li><div class="repo"><a href="https://github.com/diegosouzapw/OmniRoute"><span class="owner">diegosouzapw/</span>OmniRoute</a><p>AI-шлюз: 359 провайдеров, fallback, сжатие токенов</p></div><span class="stars">≈48k</span></li>
+      <li><div class="repo"><a href="https://github.com/ayghri/i-have-adhd"><span class="owner">ayghri/</span>i-have-adhd</a><p>Skill: агент сразу выдаёт ответ, а не прячет его в тексте</p></div><span class="stars">≈39k</span></li>
+      <li><div class="repo"><a href="https://github.com/JustVugg/colibri"><span class="owner">JustVugg/</span>colibri</a> <span class="cat">локальные LLM</span><p>GLM-5.2 (744B MoE) на 25 ГБ RAM, эксперты стримятся с диска</p></div><span class="stars">≈33k</span></li>
+      <li><div class="repo"><a href="https://github.com/Graphify-Labs/graphify"><span class="owner">Graphify-Labs/</span>graphify</a><p>Код, SQL-схемы и доки превращает в граф знаний для агентов</p></div><span class="stars">≈24k</span></li>
+      <li><div class="repo"><a href="https://github.com/xai-org/grok-build"><span class="owner">xai-org/</span>grok-build</a> <span class="cat">harness</span><p>Coding-harness от xAI</p></div><span class="stars">—</span></li>
+    </ol>
+  </div>
+</div>
 
 <h2>Главные сдвиги</h2>
 
