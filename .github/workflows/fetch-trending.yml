@@ -1,0 +1,36 @@
+name: fetch-trending
+
+# Снимает GitHub Trending и коммитит срез в data/snapshots/.
+# Облачный агент в 07:00 UTC пишет по этому срезу выпуск (облаку github.com/trending недоступен).
+on:
+  schedule:
+    - cron: "0 5 * * 1"   # понедельник 05:00 UTC = 08:00 МСК
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-trending
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch trending snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 fetch_trending.py fetch
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshots/
+          git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
+          git commit -m "Trending snapshot $(date -u +%F)"
+          git push
