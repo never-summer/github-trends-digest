@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub Trends Digest</title>
+<meta name="description" content="Куда движется AI-индустрия по трендингу GitHub: неделя, месяц, квартал. Сентябрь 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --surface: #ffffff;
+    --text: #1d1d1f;
+    --muted: #5f6368;
+    --border: #e6e3dc;
+    --accent: #2f6fdb;
+    --accent-soft: #e8effc;
+    --good: #1f7a4d;
+    --good-soft: #e5f3eb;
+    --skip: #9a3b2e;
+    --skip-soft: #f8e9e6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121316;
+      --surface: #1b1c20;
+      --text: #ececef;
+      --muted: #a0a3ab;
+      --border: #2c2e34;
+      --accent: #7aa7ff;
+      --accent-soft: #1d2a44;
+      --good: #6fd19c;
+      --good-soft: #17301f;
+      --skip: #f0a092;
+      --skip-soft: #3a1f1b;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121316;
+    --surface: #1b1c20;
+    --text: #ececef;
+    --muted: #a0a3ab;
+    --border: #2c2e34;
+    --accent: #7aa7ff;
+    --accent-soft: #1d2a44;
+    --good: #6fd19c;
+    --good-soft: #17301f;
+    --skip: #f0a092;
+    --skip-soft: #3a1f1b;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+
+  header { margin-bottom: 40px; }
+  .eyebrow {
+    font: 500 12px/1 "JetBrains Mono", ui-monospace, monospace;
+    letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  }
+  h1 { font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 14px 0 12px; letter-spacing: -.02em; }
+  .lede { color: var(--muted); font-size: 18px; margin: 0; }
+
+  .theme-btn {
+    background: none; border: 1px solid var(--border); color: var(--muted);
+    border-radius: 999px; padding: 6px 12px; cursor: pointer;
+    font: 500 12px/1 "JetBrains Mono", ui-monospace, monospace;
+  }
+  .theme-btn:hover { color: var(--text); }
+
+  h2 {
+    font-size: 22px; letter-spacing: -.01em; margin: 48px 0 16px;
+    padding-bottom: 10px; border-bottom: 1px solid var(--border);
+  }
+
+  .trend {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px 20px; margin-bottom: 12px;
+  }
+  .trend h3 { margin: 0 0 6px; font-size: 17px; display: flex; gap: 10px; align-items: baseline; }
+  .trend h3 .n { font: 500 13px/1 "JetBrains Mono", ui-monospace, monospace; color: var(--accent); }
+  .trend p { margin: 0; }
+
+  .tag {
+    display: inline-block; font: 500 12px/1.6 "JetBrains Mono", ui-monospace, monospace;
+    background: var(--accent-soft); color: var(--accent);
+    border-radius: 6px; padding: 0 6px; text-decoration: none; white-space: nowrap;
+  }
+  a.tag:hover { text-decoration: underline; }
+
+  .pick { border-left: 3px solid var(--good); padding: 4px 0 4px 16px; margin: 0 0 18px; }
+  .pick strong { display: block; margin-bottom: 2px; }
+  .pick p { margin: 0; }
+  .radar { border-left-color: var(--accent); }
+
+  .skip {
+    background: var(--skip-soft); color: var(--text);
+    border-radius: 12px; padding: 14px 18px; margin-top: 24px;
+  }
+  .skip b { color: var(--skip); }
+
+  footer {
+    margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 14px;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">
+    <span>GitHub Trends · сентябрь 2026</span>
+    <button class="theme-btn" id="themeBtn" type="button" aria-label="Переключить тему">тема</button>
+  </div>
+  <h1>Куда движется индустрия</h1>
+  <p class="lede">Что видно по самым звёздным репозиториям GitHub за неделю, месяц и квартал и что из этого стоит взять в работу.</p>
+</header>
+
+<main>
+
+<h2>Главные сдвиги</h2>
+
+<section class="trend">
+  <h3><span class="n">01</span>Harness стал продуктом</h3>
+  <p>В апреле главным был вопрос, чья модель лучше. За квартал фокус сместился на то, чей harness удобнее. DeepSeek выпустил свой harness и собрал около 190 тысяч звёзд за август. Свои harness выпустили и xAI (<span class="tag">grok-build</span>), и OpenAI (<span class="tag">codex</span>). Параллельно растёт слой, который отвязывает harness от модели: <span class="tag">magpie</span>, <span class="tag">OmniRoute</span>, <span class="tag">openrig</span>. Harness и модель становятся взаимозаменяемыми частями.</p>
+</section>
+
+<section class="trend">
+  <h3><span class="n">02</span>Skills — уже мейнстрим, а не прогноз</h3>
+  <p>В апреле «skills-война» только начиналась. В квартальном топе теперь половина — skills. Они сдвинулись от «знаний» к «поведению и вкусу»: <span class="tag">ponytail</span> учит агента не переусложнять, <span class="tag">i-have-adhd</span> — сразу давать ответ, <span class="tag">hallmark</span> и <span class="tag">humanizer</span> убирают «AI-шлак». Одновременно появились вендорские skills от Cloudflare и Alibaba.</p>
+</section>
+
+<section class="trend">
+  <h3><span class="n">03</span>Память агентов — отдельная инфраструктура</h3>
+  <p><span class="tag">claude-mem</span> в апреле был одиночкой. Теперь есть <span class="tag">hindsight</span> и <span class="tag">TencentDB-Agent-Memory</span>, который работает как командный хаб памяти: чаты, skills, вики и граф кода, с разграничением доступа.</p>
+</section>
+
+<section class="trend">
+  <h3><span class="n">04</span>От одного агента к флоту</h3>
+  <p><span class="tag">orca</span>, <span class="tag">paperclip</span>, <span class="tag">qm</span> от YC («многопользовательский harness»), <span class="tag">herdr</span> и <span class="tag">google/ax</span> решают одну задачу: как управлять десятками параллельных агентов и распределять между ними работу.</p>
+</section>
+
+<section class="trend">
+  <h3><span class="n">05</span>RAG уходит от векторов к структуре</h3>
+  <p><span class="tag">PageIndex</span> строит поиск на reasoning вместо эмбеддингов. <span class="tag">graphify</span> делает детерминированный AST-граф без векторного хранилища. На входе появились сильные конвертеры документов: <span class="tag">firecrawl anydoc</span> и <span class="tag">pdf-inspector</span>.</p>
+</section>
+
+<section class="trend">
+  <h3><span class="n">06</span>Гигантские MoE на обычном железе</h3>
+  <p><span class="tag">colibri</span> и <span class="tag">Strata</span> запускают модели на 125–744B параметров на потребительских машинах за счёт стриминга экспертов с диска. Для закрытых контуров это меняет экономику on-prem.</p>
+</section>
+
+<section class="trend">
+  <h3><span class="n">07</span>Безопасность и аудит агентов</h3>
+  <p><span class="tag">OpenShell</span> от NVIDIA даёт изолированный рантайм, <span class="tag">iFixAi</span> проверяет, делает ли агент то, что должен, а <span class="tag">strix</span> и <span class="tag">security-audit-skill</span> ищут уязвимости с помощью агентов.</p>
+</section>
+
+<h2>Что может пригодиться аналитической платформе</h2>
+
+<div class="pick">
+  <strong>graphify</strong>
+  <p>Самое близкое к задачам аналитики. Строит граф из кода, SQL-схем и конфигов — готовая основа для grounding в Text2SQL и в миграциях дашбордов. Детерминированный и без векторного хранилища, поэтому его проще объяснить безопасникам.</p>
+</div>
+
+<div class="pick">
+  <strong>TencentDB-Agent-Memory и hindsight</strong>
+  <p>Подходят, если строится платформа, где агенты решают задачи команды. Командная память с governance — ровно тот слой, который иначе придётся писать самим.</p>
+</div>
+
+<div class="pick">
+  <strong>OpenShell</strong>
+  <p>Стоит изучить для запуска агентов в закрытом контуре.</p>
+</div>
+
+<div class="pick">
+  <strong>alibaba/open-code-review</strong>
+  <p>Интересен как CI-ревью, где детерминированные правила работают вместе с LLM.</p>
+</div>
+
+<div class="pick radar">
+  <strong>HydraDB — на радар</strong>
+  <p>Граф на object storage. Любопытная идея для лейкхауса на S3 или Ozone, но пока рано.</p>
+</div>
+
+<div class="pick radar">
+  <strong>Звёзды у skills — сигнал, а не инструмент</strong>
+  <p>Внутренний каталог skills стоит строить по той же модели.</p>
+</div>
+
+<div class="skip">
+  <b>Можно пропустить:</b> VoiceStudio, всё про генерацию видео и «гайды по жизни» из китайского сегмента, который сейчас сильно раздувает трендинг.
+</div>
+
+</main>
+
+<footer>
+  Источник: GitHub Trending и звёзды за неделю, месяц и квартал. Названия проектов даны как в трендинге; перед использованием проверяйте лицензию и активность репозитория.
+</footer>
+
+</div>
+<script>
+  (function () {
+    var root = document.documentElement, btn = document.getElementById('themeBtn');
+    try { var saved = localStorage.getItem('theme'); if (saved) root.setAttribute('data-theme', saved); } catch (e) {}
+    btn.addEventListener('click', function () {
+      var dark = root.getAttribute('data-theme')
+        ? root.getAttribute('data-theme') === 'dark'
+        : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var next = dark ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+  })();
+</script>
+</body>
+</html>
