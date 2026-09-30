@@ -1,12 +1,12 @@
 {
   "date": "2026-09-30",
-  "fetched_at": "2026-09-30T11:33:29+00:00",
+  "fetched_at": "2026-09-30T11:34:48+00:00",
   "weekly": [
     {
       "repo": "vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "stars_total": 43474,
+      "stars_total": 43475,
       "stars_gained": 17365
     },
     {
@@ -20,7 +20,7 @@
       "repo": "debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars_total": 49669,
+      "stars_total": 49674,
       "stars_gained": 12722
     },
     {
@@ -34,7 +34,7 @@
       "repo": "stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
-      "stars_total": 82010,
+      "stars_total": 82012,
       "stars_gained": 6242
     },
     {
@@ -141,7 +141,7 @@
       "repo": "bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "stars_total": 45339,
+      "stars_total": 45340,
       "stars_gained": 33308
     },
     {
@@ -162,7 +162,7 @@
       "repo": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars_total": 269901,
+      "stars_total": 269902,
       "stars_gained": 26837
     },
     {
@@ -176,7 +176,7 @@
       "repo": "vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "stars_total": 43474,
+      "stars_total": 43475,
       "stars_gained": 20640
     },
     {
@@ -253,7 +253,7 @@
       "repo": "NVIDIA/SkillSpector",
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "language": "Python",
-      "stars_total": 18707,
+      "stars_total": 18708,
       "stars_gained": 3454
     },
     {
