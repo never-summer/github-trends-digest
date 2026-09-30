@@ -1,17 +1,18 @@
 # GitHub Trends Digest
 
-Куда движется AI-индустрия по самым звёздным репозиториям GitHub за неделю, месяц и квартал.
+Еженедельный обзор самых звёздных репозиториев GitHub: топы за неделю, месяц и квартал и куда движется AI-индустрия.
 
 **Страница:** https://never-summer.github.io/github-trends-digest/
 
-## Главные сдвиги (сентябрь 2026)
+## Как устроено
 
-1. **Harness стал продуктом.** Фокус сместился с «чья модель лучше» на «чей harness удобнее»: DeepSeek, xAI (grok-build), OpenAI (codex). Растёт слой, отвязывающий harness от модели: magpie, OmniRoute, openrig.
-2. **Skills — мейнстрим.** Половина квартального топа — skills, и они сдвинулись от «знаний» к «поведению и вкусу»: ponytail, i-have-adhd, hallmark, humanizer. Появились вендорские skills от Cloudflare и Alibaba.
-3. **Память агентов — отдельная инфраструктура.** claude-mem, hindsight, TencentDB-Agent-Memory.
-4. **От одного агента к флоту.** orca, paperclip, qm (YC), herdr, google/ax.
-5. **RAG уходит от векторов к структуре.** PageIndex, graphify, firecrawl anydoc, pdf-inspector.
-6. **Гигантские MoE на обычном железе.** colibri и Strata — 125–744B параметров со стримингом экспертов с диска.
-7. **Безопасность и аудит агентов.** NVIDIA OpenShell, iFixAi, strix, security-audit-skill.
+| файл | что делает |
+|---|---|
+| `data/issues/<дата>.json` | данные выпуска: топы, тренды, выводы |
+| `data/snapshots/<дата>.json` | сырой срез GitHub Trending; из них считается квартальный топ |
+| `fetch_trending.py` | снимает Trending за неделю и месяц, сохраняет срез, печатает три топа |
+| `build.py` | проверяет JSON и собирает `index.html` (свежий выпуск) и `issues/<дата>/` (архив) |
+| `style.css` | оформление |
+| `WEEKLY.md` | инструкция для облачного агента, который раз в неделю готовит выпуск |
 
-Подробности и выводы для аналитической платформы — на [странице](https://never-summer.github.io/github-trends-digest/).
+Собрать локально: `python3 build.py` (нужен только Python 3).
