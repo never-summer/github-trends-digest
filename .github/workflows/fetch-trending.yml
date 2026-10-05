@@ -1,10 +1,13 @@
 name: fetch-trending
 
-# Снимает GitHub Trending и коммитит срез в data/snapshots/.
-# Облачный агент в 07:00 UTC пишет по этому срезу выпуск (облаку github.com/trending недоступен).
+# Снимает GitHub Trending, коммитит срез в data/snapshots/ и сразу запускает
+# облачного агента (Claude routine), который пишет по срезу выпуск.
+# Запуски по расписанию у GitHub могут опаздывать на часы, поэтому агент
+# стартует не по своему расписанию, а по сигналу отсюда.
 on:
   schedule:
-    - cron: "0 5 * * 1"   # понедельник 05:00 UTC = 08:00 МСК
+    - cron: "17 4 * * 1"   # понедельник 04:17 UTC = 07:17 МСК
+    - cron: "17 9 * * 1"   # запасной запуск, если первый GitHub пропустил
   workflow_dispatch:
 
 permissions:
@@ -22,15 +25,46 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+
+      - name: Skip if today's snapshot already exists
+        id: check
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/snapshots/$(date -u +%F).json" ]; then
+            echo "snapshot for today already committed — nothing to do"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Fetch trending snapshot
+        if: steps.check.outputs.skip != 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 fetch_trending.py fetch
+
       - name: Commit snapshot
+        id: commit
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/snapshots/
-          git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "Trending snapshot $(date -u +%F)"
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Start the weekly digest agent
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          ROUTINE_TOKEN: ${{ secrets.CLAUDE_ROUTINE_TOKEN }}
+        run: |
+          if [ -z "$ROUTINE_TOKEN" ]; then
+            echo "::warning::CLAUDE_ROUTINE_TOKEN не задан — агент не запущен"
+            exit 0
+          fi
+          curl -sS --fail-with-body -X POST \
+            https://api.anthropic.com/v1/claude_code/routines/trig_01Djutw3Qmk6Y1g8qebMiiwq/fire \
+            -H "Authorization: Bearer $ROUTINE_TOKEN" \
+            -H "anthropic-beta: experimental-cc-routine-2026-04-01" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "Content-Type: application/json" \
+            -d '{}'
