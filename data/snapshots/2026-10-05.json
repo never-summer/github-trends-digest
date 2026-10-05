@@ -1,0 +1,334 @@
+{
+  "date": "2026-10-05",
+  "fetched_at": "2026-10-05T12:08:52+00:00",
+  "weekly": [
+    {
+      "repo": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars_total": 53429,
+      "stars_gained": 14689
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars_total": 45718,
+      "stars_gained": 10623
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars_total": 97379,
+      "stars_gained": 8732
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars_total": 155524,
+      "stars_gained": 7948
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_total": 64290,
+      "stars_gained": 4904
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars_total": 91406,
+      "stars_gained": 4789
+    },
+    {
+      "repo": "mvschwarz/openrig",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "language": "TypeScript",
+      "stars_total": 5079,
+      "stars_gained": 4251
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars_total": 76766,
+      "stars_gained": 4242
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars_total": 57014,
+      "stars_gained": 3096
+    },
+    {
+      "repo": "pablostanley/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "language": "TypeScript",
+      "stars_total": 4527,
+      "stars_gained": 2361
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars_total": 128538,
+      "stars_gained": 2291
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_total": 156943,
+      "stars_gained": 1866
+    },
+    {
+      "repo": "TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "stars_total": 6838,
+      "stars_gained": 1496
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars_total": 25389,
+      "stars_gained": 1304
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "language": "Python",
+      "stars_total": 27654,
+      "stars_gained": 1024
+    },
+    {
+      "repo": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars_total": 9872,
+      "stars_gained": 994
+    },
+    {
+      "repo": "tile-ai/tilelang",
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "language": "Python",
+      "stars_total": 8399,
+      "stars_gained": 839
+    },
+    {
+      "repo": "Gaurav-Gosain/tuios",
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+      "language": "Go",
+      "stars_total": 4742,
+      "stars_gained": 708
+    },
+    {
+      "repo": "Effect-TS/effect",
+      "description": "Build production-ready applications in TypeScript",
+      "language": "TypeScript",
+      "stars_total": 17011,
+      "stars_gained": 702
+    },
+    {
+      "repo": "cloudflare/cloudflare-os",
+      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "language": "TypeScript",
+      "stars_total": 10815,
+      "stars_gained": 655
+    },
+    {
+      "repo": "caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "stars_total": 76792,
+      "stars_gained": 358
+    }
+  ],
+  "monthly": [
+    {
+      "repo": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars_total": 155524,
+      "stars_gained": 30466
+    },
+    {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars_total": 47715,
+      "stars_gained": 30324
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "language": "JavaScript",
+      "stars_total": 77829,
+      "stars_gained": 30184
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "stars_total": 53780,
+      "stars_gained": 26627
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars_total": 273279,
+      "stars_gained": 26306
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars_total": 45718,
+      "stars_gained": 23232
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars_total": 43801,
+      "stars_gained": 22080
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars_total": 97379,
+      "stars_gained": 17361
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars_total": 57014,
+      "stars_gained": 12865
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars_total": 32105,
+      "stars_gained": 10912
+    },
+    {
+      "repo": "tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "stars_total": 30778,
+      "stars_gained": 6502
+    },
+    {
+      "repo": "NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars_total": 14936,
+      "stars_gained": 6356
+    },
+    {
+      "repo": "NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "stars_total": 80690,
+      "stars_gained": 6321
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "stars_total": 149461,
+      "stars_gained": 5996
+    },
+    {
+      "repo": "trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "Rust",
+      "stars_total": 28103,
+      "stars_gained": 5942
+    },
+    {
+      "repo": "TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "stars_total": 6838,
+      "stars_gained": 5298
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars_total": 25440,
+      "stars_gained": 5116
+    },
+    {
+      "repo": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars_total": 38753,
+      "stars_gained": 4143
+    },
+    {
+      "repo": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars_total": 9872,
+      "stars_gained": 3095
+    },
+    {
+      "repo": "superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "stars_total": 4163,
+      "stars_gained": 2955
+    },
+    {
+      "repo": "agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars_total": 4319,
+      "stars_gained": 2515
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars_total": 26123,
+      "stars_gained": 2297
+    },
+    {
+      "repo": "max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "stars_total": 8823,
+      "stars_gained": 2049
+    }
+  ],
+  "readmes": {
+    "debpalash/VoiceStudio": "VoiceStudio\n  \n    \n  \n  Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.\n  \n    Website ·\n    Download ·\n    Get started ·\n    Docs ·\n    Discord ·\n    简体中文 ·\n    日本語\n  \n  \n    \n    \n    \n  \n\n## Your voice. Your workflow.\n\n| Create | Produce | Connect |\n| :--- | :--- | :--- |\n| Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents |\n| Dictate with a floating widget | Stories, audiobooks & batch jobs | Optional remote workers |\n\nStart with **VoiceStudio** (default, powered by k2-fsa/OmniVoice), or choose another engine. [Features & engine catalog](docs/feature-catalog.md).\n\nLocal workflows run on your hardware. Remote services are optional; usage analytics requires consent.\n\nExplore the workspaces · Clone, dub, design & models\n\n  \n    \n    \n  \n  Voice cloningVideo dubbing\n  \n    \n    \n  \n  Voice designLocal models\n\n## Get started\n\n### One-command install (macOS / Linux)\n\n```sh\n# Latest Electron release\ncurl -fsSL https://voicestudio.sh/install | sh\n\n# A specific published Electron release (replace X.Y.Z)\ncurl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z\n\n# Build current main and install the desktop app\ncurl -fsSL https://voicestudio.sh/install | sh -s -- --main\n\n# Uninstall the app, keeping your data\ncurl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall\n```\n\nOn Windows, run `irm https://voicestudio.sh/install | iex` in PowerShell.\nRelease downloads require curl and a SHA-256 tool. `--main` requires Git,\nNode.js 22+, Bun, Rust/Cargo, and platform build tools; see\n[installer prerequisites and behavior](docs/install/script.md).\nThe installer preserves your settings, projects, and models. Older versions\nmust contain Electron packages; it never falls back to archived Tauri builds.\n\nOr download from [Releases](https://github.com/debpalash/VoiceStudio/releases/latest) (macOS `.dmg`, Windows `.exe`, Linux `.AppImage` or `.deb`) and follow your platform guide:\n\n**[macOS](docs/install/macos.md) · [Windows](docs/install/windows.md) · [Linux](docs/install/linux.md) · [Docker](docs/install/docker.md)**\n\n| Hardware | Support |\n|---|---|\n| NVIDIA GPU (Windows / Linux) | CUDA acceleration |\n| Apple Silicon | Metal (MPS) acceleration |\n| No dedicated GPU (Intel/AMD integrated graphics, older PCs) | Fully usable on the CPU, slower; setup installs the small CPU build of PyTorch (about 5 GB free disk) |\n| Windows on ARM (Snapdragon X etc.) | **Experimental**, validation pending: native ARM64 app, x64 Python backend under emulation, CPU only |\n| Intel Mac | App UI only; connect to a remote backend ([why](docs/install/macos.md)) |\n\nOpen **Voice cloning**, choose a voice or add a clean reference recording, enter your text, and generate. Install the required model when prompted. Hardware needs vary by engine; see [performance](docs/performance.md).\n\n### Install with prompt\n\nPaste into your coding agent (Claude Code, Codex, Cursor, …",
+    "vectorize-io/hindsight": "[Documentation](https://hindsight.vectorize.io) • [Integrations](https://hindsight.vectorize.io/integrations) • [Cookbook](https://hindsight.vectorize.io/cookbook) • [Benchmarks](https://benchmarks.hindsight.vectorize.io/) • [Paper](https://arxiv.org/abs/2512.12818) • [Hindsight Cloud](https://ui.hindsight.vectorize.io)\n\n  \n\n---\n\n## What is Hindsight?\n\nHindsight™ is an agent memory system built to create smarter agents that learn over time. Most agent memory systems focus on recalling conversation history. Hindsight is focused on making agents that learn, not just remember.\n\nIt eliminates the shortcomings of alternative techniques such as RAG and knowledge graph and delivers state-of-the-art performance on long term memory tasks.\n\n**Contents**\n\n- [Memory Performance & Accuracy](#memory-performance--accuracy)\n- [Quick Start](#quick-start) — [server](#1-start-a-server) · [clients](#2-connect-a-client) · [platforms](#supported-platforms) · [embedded](#python-embedded-no-server-required)\n- [Adding Hindsight to Your Agent](#adding-hindsight-to-your-agent) — [LLM Wrapper](#llm-wrapper-2-lines-of-code) · [integrations](#integrations) · [coding agents](#coding-agents) · [MCP](#mcp-server)\n- [Core Concepts](#core-concepts) — [memory types](#memory-types) · [retain / recall / reflect](#the-three-operations) · [observations](#observations) · [mental models & knowledge pages](#mental-models--knowledge-pages) · [banks](#memory-banks)\n- [Use Cases](#use-cases)\n- [Running in Production](#running-in-production)\n- [Resources](#resources)\n\n---\n\n## Memory Performance & Accuracy\n\nHindsight is the most accurate agent memory system ever tested according to benchmark performance. It has achieved state-of-the-art performance on the LongMemEval benchmark, widely used to assess memory system performance across a variety of conversational AI scenarios. The current reported performance of Hindsight and other agent memory solutions as of January 2026 is shown here:\n\n> Live, continuously updated results — including per-model accuracy, latency and cost — are published at [benchmarks.hindsight.vectorize.io](https://benchmarks.hindsight.vectorize.io/).\n\nThe benchmark performance data for Hindsight has been independently reproduced by research collaborators at the Virginia Tech [Sanghani Center for Artificial Intelligence and Data Analytics](https://sanghani.cs.vt.edu/) and The Washington Post. Other scores are self-reported by software vendors.\n\nHindsight is being used in production at Fortune 500 enterprises and by a growing number of AI startups.\n\n---\n\n> 🤖 **Using a coding agent?** Install the Hindsight documentation skill for instant access to docs while you code:\n> ```bash\n> npx skills add https://github.com/vectorize-io/hindsight --skill hindsight-docs\n> ```\n> Works with Claude Code, Cursor, and other AI coding assistants.\n\n---\n\n## Quick Start\n\n### 1. Start a server\n\n#### Docker (recommended)\n\n```bash\nexport OPENAI_API_KEY=sk-xxx\n\ndocker run -it --pull always --name hindsig",
+    "paperclipai/paperclip": "Quickstart &middot;\n  Docs &middot;\n  GitHub &middot;\n  Discord &middot;\n  Twitter &middot;\n  Website\n\n  \n  \n  \n  \n\n  \n\n  Sign up for the Paperclip Cloud waitlist →\n\n# Paperclip is the app people use to manage AI agents for work.\n\nOpen-source orchestration for teams of AI agents.\n\n**If OpenClaw is an _employee_, Paperclip is the _company_.**\n\nPaperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a business. Bring your own agents, assign goals, and track work and costs from one dashboard. Choose models and harnesses per agent while keeping your team's tasks, skills, permissions, and history in one place.\n\nIt looks like a task manager. Under the hood: org charts, budgets, governance, goal alignment, and agent coordination.\n\n**Manage business goals, not pull requests.**\n\n|        | Step            | Example                                                            |\n| ------ | --------------- | ------------------------------------------------------------------ |\n| **01** | Define the goal | _\"Build the #1 AI note-taking app to $1M MRR.\"_                    |\n| **02** | Hire the team   | CEO, CTO, engineers, designers, marketers — any bot, any provider. |\n| **03** | Approve and run | Review strategy. Set budgets. Hit go. Monitor from the dashboard.  |\n\n  \n    Workswith\n    OpenClaw\n    Claude Code\n    Codex\n    Cursor+ Cloud\n    Gemini CLI\n  \n  \n    OpenCode\n    Pi\n    Hermes+ Gateway\n    Grok Build\n    Kimi Code\n  \n\nIf it can receive a heartbeat, it's hired.\n\nCustom processes, HTTP endpoints, and external adapter packages extend the roster. See the [adapter overview](https://docs.paperclip.ing/reference/adapters/overview/) for setup and capabilities.\n\n## Paperclip is right for you if\n\n- ✅ You want to build **autonomous AI organizations**\n- ✅ You **coordinate many different agents** (OpenClaw, Codex, Claude, Cursor) toward a common goal\n- ✅ You have **20 simultaneous Claude Code terminals** open and lose track of what everyone is doing\n- ✅ You want agents running **autonomously 24/7**, but still want to audit work and chime in when needed\n- ✅ You want to **monitor costs** and enforce budgets\n- ✅ You want a process for managing agents that **feels like using a task manager**\n- ✅ You want to manage your autonomous businesses **from your phone**\n\n## The four pillars\n\nFour things have to work for an organization of AI agents to actually produce: the tasks, the org, the training, and the infrastructure. Paperclip is built around exactly those four pillars.\n\n  \n  \n  \n\n| Pillar | Built for | What it covers |\n| --- | --- | --- |\n| **Agentic Task Manager** — Declare intent. Agents work. You verify the output. | Everyone, daily | Tasks, approvals & review gates · proactive agent coworkers · auditable routines & workflows · verify from diffs, screenshots & tests |\n| **Org Chart for Agents** — Roles, permissions & boundaries for humans and agents. | Managers | Mixed human + agent org chart · responsibilities, delegation, specia",
+    "DietrichGebert/ponytail": "Ponytail\n\n  He says nothing. He writes one line. It works.\n\n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n\n  ~54% less code (up to 94%) &middot; ~20% cheaper &middot; ~27% faster &middot; 100% safe\n  Real Claude Code sessions editing a real FastAPI + React repo, the same agent with and without the skill (12 feature tasks, Haiku 4.5, n=4). Details.\n\n  Español &middot; 한국어\n\n---\n\n  \n\n## Already built with Ponytail\n\n  \n    \n    \n  \n\n---\n\nYou know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one.\n\nPonytail puts him inside your AI agent.\n\n## The prompt\n\nPonytail is one prompt: [`skills/ponytail/SKILL.md`](skills/ponytail/SKILL.md). The compact version, for agents that read a rules file, is [`AGENTS.md`](AGENTS.md). Everything else in this repo loads that prompt into different agents.\n\n## Install\n\n**Claude Code**, as two separate prompts:\n\n```\n/plugin marketplace add DietrichGebert/ponytail\n```\n```\n/plugin install ponytail@ponytail\n```\n\n**Codex:**\n\n```bash\ncodex plugin marketplace add DietrichGebert/ponytail\ncodex plugin add ponytail@ponytail\n```\n\nThen open `/hooks` in Codex, trust its two lifecycle hooks, and start a new thread.\n\n**Any other agent:** copy [`AGENTS.md`](AGENTS.md) into your project, or ask your agent to install [`skills/ponytail/SKILL.md`](skills/ponytail/SKILL.md) as a skill. Step by step for Copilot, Cursor, OpenCode, Gemini and the rest: **[INSTALL.md](INSTALL.md)**.\n\nThat was it. He'd be proud. He won't say it.\n\nActive every session, with a handful of commands (see [Commands](#commands)). `/ponytail ultra` exists for when the codebase has wronged you personally. Startup and mode-change text shows the current mode.\n\nOnly install ponytail from `DietrichGebert/ponytail` on GitHub or `@dietrichgebert/ponytail` on npm. It never ships `.exe` or `.dll` files; a copy that does is not mine.\n\n## Before / after\n\nYou ask for a date picker. Your agent installs flatpickr, writes a wrapper component, adds a stylesheet, and starts a discussion about timezones.\n\nWith ponytail:\n\n```html\n\n```\n\nMore survivors in [examples/](examples/).\n\n## How it works\n\nBefore writing code, the agent stops at the first rung that holds:\n\n```\n1. Does this need to exist?   → no: skip it (YAGNI)\n2. Already in this codebase?  → reuse it, don't rewrite\n3. Stdlib does it?            → use it\n4. Native platform feature?   → use it\n5. Installed dependency?      → use it\n6. One line?                  → one line\n7. Only then: the minimum that works\n```\n\nThe ladder runs *after* it understands the problem, not instead of it: it reads the code the change touches and traces the real flow before picking a rung. Lazy about the solution, never about reading.\n\nLazy, not negligent: trust-boundary validation, data-loss handling, security, and accessibility are never on the chopping block.\n\n## Commands\n\n| Command | What it does |\n|---------|--------------|\n| `/ponytail [lite \\| full",
+    "rohitg00/ai-engineering-from-scratch": "Read in your language:\n  Español ·\n  Français ·\n  Português ·\n  Deutsch ·\n  Italiano ·\n  简体中文 ·\n  日本語 ·\n  한국어 ·\n  हिन्दी ·\n  العربية ·\n  Русский ·\n  Türkçe\n\n  \n  \n  \n  \n  \n  \n \n   \n \n\n### Sponsors\n\n  \n  \n\n  Your support keeps every lesson free and open source. See all supporters · Become a sponsor\n\n```text\n░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒\n```\n\n> **84% of students already use AI tools. Only 18% feel prepared to use them\n> professionally.** This curriculum closes that gap.\n>\n> 523 lessons. 20 phases. ~342 hours. Python, TypeScript, Rust, Julia. Every lesson ships\n> a reusable artifact: a prompt, a skill, an agent, an MCP server. Free, open source, MIT.\n>\n> You don't just learn AI. You build it. End-to-end. By hand.\n\n114,584 readers &nbsp;·&nbsp; 181,995 page views in the last 30 days &nbsp;·&nbsp; as of 2026-08-29\n\n## Start here: choose what you want to build\n\nYou do not need to scan 523 lessons before beginning. Pick one goal. Each link\nopens the same curriculum on GitHub or the website, and both versions use the\nsame lesson code.\n\n| Your goal | Learn on GitHub | Learn on the website |\n|---|---|---|\n| I am new and want the complete foundation | [Phase 0: Setup and Tooling](phases/00-setup-and-tooling/) | [Dev Environment](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |\n| I know Python and want math plus ML foundations | [Phase 1: Math Foundations](phases/01-math-foundations/) | [Linear Algebra Intuition](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |\n| I want to build production LLM applications | [Phase 11: LLM Engineering](phases/11-llm-engineering/) | [Prompt Engineering](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |\n| I want to build agents | [Phase 14: Agent Engineering](phases/14-agent-engineering/) | [The Agent Loop](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |\n| I want to use coding agents on real repositories | [Agent-Assisted Engineering path](learning-paths/using-coding-agents.json) | [Agent-Assisted Engineering](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |\n| I want to shape the right build before implementation | [Product Judgment and Delivery path](learning-paths/shaping-the-build.json) | [Product Judgment and Delivery](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |\n| I want to build with Model Context Protocol (MCP) | [Model Context Protocol (MCP) route](phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) path](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=",
+    "Panniantong/Agent-Reach": "👁️ Agent Reach\n\n  给你的 AI Agent 一键装上互联网能力\n\n  当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心\n\n  \n  \n\n  \n  \n  \n\n  快速开始 · English · 日本語 · 한국어 · 支持平台 · 设计理念\n\n---\n\n## ❤️赞助商\n\n> [想出现在这里？](mailto:pnt01@foxmail.com)\n\n点击折叠\n\nBrowserAct 支持从 Amazon、LinkedIn、X、Google Maps 等复杂网站提取你需要的任意数据。你只需用自然语言描述抓取需求，Agent 就会基于真实浏览器自动探索并测试页面流程，生成可靠、可复用的数据采集 Bot，并返回结构化结果。无需手动构建爬虫，无需编写代码。BrowserAct 内置隐身浏览、验证码处理和高质量住宅代理，帮助你更稳定地完成复杂网页数据采集。新用户注册即送 1000 积分，立即免费试用。\n\n在腾讯云 Lighthouse 秒级部署 OpenClaw 全能助手，可通过对话丝滑接入 Agent Reach，给你的 OpenClaw 一键装上互联网能力。\n\nCoreClaw | 网页抓取平台与现成数据采集工具，CoreClaw 提供 100+ 现成数据采集工具，支持 Amazon、TikTok、Google Maps、Instagram、Facebook、YouTube 等平台，无需代码，支持 JSON/CSV 导出，仅对成功结果计费。免费$3测试！\n\n优刻得星图astraflow大模型，支持200+模型一键调用：内置 Kimi K3、DeepSeek V4/V3、Qwen 3、GLM5.2、happyhorse等全球领先开源大模型，无需自训，开箱即用\n\n---\n\n## 为什么需要 Agent Reach？\n\nAI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了：\n\n- 📺 \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕\n- 🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费\n- 📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒\n- 📕 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看\n- 📺 \"B站上有个技术视频，帮我总结一下\" → **拿不到**，通用下载工具被 B站风控全面拦截\n- 🔍 \"帮我在网上搜一下最新的 LLM 框架对比\" → **没有好用的搜索**，要么付费要么质量差\n- 🌐 \"帮我看看这个网页写了啥\" → **抓回来一堆 HTML 标签**，根本没法读\n- 📦 \"这个 GitHub 仓库是干嘛的？Issue 里说了什么？\" → 能用，但认证配置很麻烦\n- 📡 \"帮我订阅这几个 RSS 源，有更新告诉我\" → 要自己装库写代码\n\n**这些不难实现，但是需要自己折腾配置**\n\n每个平台都有自己的门槛——要付费的 API、要绕过的封锁、要登录的账号、要清洗的数据。你要一个一个去踩坑、装工具、调配置，光是让 Agent 能读个推特就得折腾半天。\n\n**Agent Reach 把这件事变成一句话：**\n\n```\n帮我安装 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md\n```\n\n复制给你的 Agent，几分钟后它就能读推特、搜 Reddit、看 YouTube、刷小红书了。\n\n**已经装过了？更新也是一句话：**\n\n```\n帮我更新 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/update.md\n```\n\n> ⭐ **Star 这个项目**，我们会持续追踪各平台的变化、接入新的渠道。你不用自己盯——平台封了我们修，有新渠道我们加。\n\n### ✅ 在你用之前，你可能想知道\n\n| | |\n|---|---|\n| 💰 **完全免费** | 所有工具开源、所有 API 免费。唯一可能花钱的是服务器代理（$1/月），本地电脑不需要 |\n| 🔒 **隐私安全** | Cookie 只存在你本地，不上传不外传。代码完全开源，随时可审查 |\n| 🔄 **持续换代** | 每个平台都是「首选 + 备选」多后端路由。某个接入方式失效了，我们换下一个，你无感（2026-06 实例：yt-dlp 被 B站风控封死 → 已切换 bili-cli，用户零操作） |\n| 🤖 **兼容所有 Agent** | Claude Code、OpenClaw、Cursor、Windsurf……任何能跑命令行的 Agent 都能用 |\n| 🩺 **自带诊断** | `agent-reach doctor` 一条命令告诉你哪个通、哪个不通、怎么修 |\n\n---\n\n## 支持的平台\n\n| 平台 | 装好即用 | 配置后解锁 | 怎么配 |\n|------|---------|-----------|-------|\n| 🌐 **网页** | 阅读任意网页 | — | 无需配置 |\n| 📺 **YouTube** | 字幕提取 + 视频搜索 | — | 无需配置 |\n| 📡 **RSS** | 阅读任意 RSS/Atom 源 | — | 无需配置 |\n| 🔍 **全网搜索** | — | 全网语义搜索 | 自动配置（MCP 接入，免费无需 Key） |\n| 📦 **GitHub** | 读公开仓库 + 搜索 | 私有仓库、提 Issue/PR、Fork | 告诉 Agent「帮我登录 GitHub」 |\n| 🐦 **Twitter/X** | 读单条推文 | 搜索推文、浏览时间线、读长文 | 告诉 Agent「帮我配 Twitter」 |\n| 📺 **B站** | 搜索 + 视频详情（bili-cli，无需登录） | 字幕（OpenCLI） | 告诉 Agent「帮我配 B站」 |\n| 📖 **Reddit** | —（没有零配置路径：匿名接口已被封） | 搜索 + 读帖子和评论 | 桌面装 OpenCLI 用浏览器登录态；或 rdt-cli + Cookie |\n| 📘 **Facebook** | — | 搜索、主页、Feed、群组列表 | 桌面装 OpenCLI（复用 Chrome 登录态） |\n| 📷 **Instagram** | — | 用户搜索、Profile、用户最近帖子、Explore | 桌面装 OpenCLI（复用 Chrome 登录态） |\n| 📕 **小红书** | — | 搜索、阅读、评论 | OpenCLI 只用用户已有 Chrome 会话；MCP/存量工具用 Cookie-Editor |\n| 💼 **LinkedIn** | Jina Reader 读公开页面 | Profile 详情、公司页面、职位搜索 | 告诉 Ag",
+    "mvschwarz/openrig": "# OpenRig\n\n   \n\nA harness wraps a model. A rig wraps your harnesses. Define your agent team in YAML, boot it with one command. Claude Code and Codex in the same rig, managed as one system.\n\nOpenRig is open-source software for building and running your own network of agents. It turns AI coding agents from a pile of terminal sessions into a persistent, organized team. Talk to a lead agent about the outcome you want; it can coordinate specialists across teams and bring you results and decisions that need your attention. Start with a repository and one useful change, then keep the team's work and context at the same addresses.\n\nIt's the open-source system behind my AI civilization experiments.\n\n**Guide:** [Getting started](docs/reference/getting-started.md) · **Stuck?** [Help](docs/reference/help.md) · **Questions:** [Q&A](https://github.com/mvschwarz/openrig/discussions/92) · **Updates and demos:** [@_feralmachine on X](https://x.com/_feralmachine)\n\n## See it running\n\n**Start here:** [the guided first-use path](docs/reference/getting-started.md): install, launch a two-agent team in your repository, and get one reviewed change.\n\nNot setting this up today? Get the next walkthrough and occasional OpenRig updates → https://openrig.dev/follow\n\n## Install and first run\n\nRequires Node.js 22 or 24 and tmux, on macOS or Linux. On a Mac with Apple silicon, use Node.js 22 ([compatibility history](docs/releases/v0.5.15.md#known-compatibility-limitation)). Native Windows is not supported yet, and WSL2 has not been tested. Launching a rig writes provider hooks and workspace trust settings. Before running the commands below, read [what OpenRig changes on your machine](#what-openrig-changes-on-your-machine) and back up the relevant files.\n\n```bash\nnpm install -g @openrig/cli\nrig setup --dry-run\n```\n\nTo install with Bun instead, run `bun add -g @openrig/cli`. OpenRig still runs on Node.js, so install Node.js 22 as well. Bun may block this package's postinstall script, in which case the Node.js and SQLite check described under [what OpenRig changes on your machine](#what-openrig-changes-on-your-machine) does not run at install time.\n\nChoose the working account you already have: **Claude Code, Codex, or both**. Reuse an explicit choice; no second subscription is required. `rig setup --dry-run` previews the broader setup, but applying `rig setup` checks both harnesses and installs a missing one, and on macOS cmux too. It is optional for the [selected-provider path](docs/reference/getting-started.md#choose-your-providers).\n\nBefore launching, your agent asks once: **“Allow your agents to run OpenRig commands without repeated permission prompts?” Yes — recommended / No — keep prompts.** This covers every `rig` command, including starting/stopping agents and configuration, at personal project scope unless you explicitly choose user-wide sessions. It is not global YOLO or permission to invent work. On Yes, the agent [adds and verifies native rules](docs/reference/getting-st",
+    "pbakaus/impeccable": "# Impeccable\n\nDesign guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 61 deterministic detector rules for AI-generated frontend design.\n\n> **Quick start:** From your project root, run `npx impeccable install`, then run `/impeccable init` inside your AI coding tool. Full docs: [impeccable.style](https://impeccable.style).\n\n## Why Impeccable?\n\nAnthropic's [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) was the first widely-used design skill for Claude. Impeccable started from there.\n\nEvery model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds, the rounded-square icon tile above every heading.\n\nImpeccable adds:\n- **One setup flow.** `/impeccable init` records durable product truth in `PRODUCT.md`, so later commands know the audience, purpose, operating context, constraints, voice, and evidence without confusing those facts with surface-level visual direction.\n- **24 commands.** A shared design vocabulary with your AI: `polish`, `audit`, `critique`, `distill`, `animate`, `bolder`, `quieter`, and more.\n- **61 deterministic detector rules** plus LLM-only critique checks. The CLI and browser extension run the deterministic rules with no LLM and no API key.\n\n## What's Included\n\n### The Skill: impeccable\n\nThe skill installs as one command:\n\n```bash\n/impeccable  \n```\n\nStart every new project with:\n\n```bash\n/impeccable init\n```\n\n`init` inspects the project, asks only for material gaps in durable product truth, and writes `PRODUCT.md`. Visitor mode and visual direction are chosen later for each surface; incumbent or newly built visual systems are recorded separately in `DESIGN.md`.\n\n### 24 Commands\n\nAll commands are accessed through `/impeccable`:\n\n| Command | What it does |\n|---------|--------------|\n| `/impeccable craft` | Full shape-then-build flow with visual iteration |\n| `/impeccable init` | One-time setup: gather durable product context, write PRODUCT.md, configure live mode when applicable, recommend next steps |\n| `/impeccable document` | Generate root DESIGN.md from existing project code |\n| `/impeccable extract` | Pull reusable components and tokens into the design system |\n| `/impeccable shape` | Plan UX/UI before writing code |\n| `/impeccable critique` | UX design review: hierarchy, clarity, emotional resonance |\n| `/impeccable audit` | Run technical quality checks (a11y, performance, responsive) |\n| `/impeccable polish` | Final pass, design system alignment, and shipping readiness |\n| `/impeccable bolder` | Amplify boring designs |\n| `/impeccable quieter` | Tone down overly bold designs |\n| `/impeccable distill` | Strip to essence |\n| `/impeccable harden` | Error handling, i18n, text overflow, edge cases |\n| `/impeccable onboard` | First-run flows, empty states, activation paths |\n| `/impeccable animate` | Add",
+    "heygen-com/hyperframes": "Write HTML. Render video. Built for agents.\n\n  Studio |\n  Quickstart |\n  Showcase |\n  Playground |\n  Catalog |\n  Docs |\n  Discord\n\n  \n\nHyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows.\n\n## Quick Start\n\n### With an AI coding agent\n\nFor Claude Code, install the versioned plugin:\n\n```bash\nclaude plugin marketplace add heygen-com/hyperframes\nclaude plugin install hyperframes@hyperframes\n```\n\nEnable auto-update for the **hyperframes** marketplace in `/plugin` → **Marketplaces**,\nthen use `/hyperframes:hyperframes`. See the [plugin guide](docs/guides/plugins.mdx)\nfor Copilot, VS Code, Cursor, Gemini CLI, updates, and migration.\n\nFor standalone skills (including OpenCode), use:\n\n```bash\nnpx skills add heygen-com/hyperframes\n```\n\n> The picker opens with nothing pre-selected — the **Core Skills** group is all you need: the `/hyperframes` router installs each creation workflow on demand. Agents and non-interactive runs should use `npx hyperframes skills update` instead — it installs exactly the core set, whereas `skills add --all` installs all 21 published skills. The six repo-internal skills under `.claude/skills` / `.agents/skills` are excluded by default. For the full published set use `npx hyperframes skills`.\n>\n> `skills add` resolves the skills.sh registry blob, which can lag `main` by hours. `npx hyperframes skills update` installs from the current `main`, so reach for it when you need the newest copy of a skill.\n\nTry a prompt like:\n\n> Using `/hyperframes`, create a 10-second product intro with a fade-in title, a background video, and subtle background music.\n\nThe skills teach agents the HyperFrames production loop: plan the video, write valid HTML, wire seekable animations, add media, lint, preview, and render. They work with Claude Code, Codex, Cursor, Gemini CLI, IBM Bob, and other coding agents that support skills.\n\n## Skills\n\nHyperFrames ships 21 skills agents load on demand. Read `/hyperframes` first — it's the router and capability map; it picks a workflow for any \"make me a…\" request — video, deck, or composition port — and points to the domain skills below.\n\nFor standalone installation, default to the **core set** — the router installs each creation workflow on demand. `npx hyperframes skills update` installs exactly that from anywhere; the interactive picker (`npx skills add heygen-com/hyperframes`) lists it as the \"Core Skills\" group, nothing pre-selected. The picker is interactive-only — a non-interactive or agent run without `--skill` installs all 21. Use `npx skills add heygen-com/hyperframes --all` to install the complete published set deliberately (skips the picker), or `npx skills add heygen-com/hyperframes --skill ` for just one (bare name, no leading `/`).\n\nStandalone installs stay lean after that: `npx hyperframes init` keeps the **co",
+    "pablostanley/yoinks": "# yoinks\n\n  \n  \n\nyoink any video. paste. yoink. done.\n\nDownload videos from YouTube, X/Twitter, Instagram, Threads, TikTok and\n1,800+ other sites — right from your terminal. Paste a url, pick a\nresolution (or audio-only mp3), done. No popups, no fake download buttons,\nno sketchy redirects.\n\n## Install\n\n```sh\nnpm install -g yoinks\n```\n\nOr try it without installing anything:\n\n```sh\nnpx yoinks\n```\n\nRequires Node 18+. Everything else (yt-dlp, ffmpeg) is fetched or bundled\nautomatically.\n\n## Usage\n\n```sh\n$ yoinks https://youtu.be/dQw4w9WgXcQ    # straight to the format picker\n$ yoinks                                 # prompts for a url\n$ yoinks --theme light                   # force the light palette\n```\n\nyoinks takes over the terminal (full-screen, centered — and restores your\nscrollback on exit). Pick a format with ↑/↓ (or j/k, or number keys) and\nhit enter. `esc` goes back, `^c` quits. Or just use the mouse — the yoink\nbutton, the format list and the footer hints are all clickable, and\nclicking the logo takes you back home. Files are saved to `~/Downloads`,\nand the file path is printed to your terminal when you're done.\n\nThe default `auto` theme uses your terminal's own foreground and background,\nso it follows light and dark terminal themes without guessing. Press `^t` or\nclick the theme control in the footer to cycle through `auto`, `light`, and\n`dark` for the current session. Use `--theme auto`, `--theme light`, or\n`--theme dark` to choose the starting theme for one launch.\n\n## How it works\n\n- Powered by [yt-dlp](https://github.com/yt-dlp/yt-dlp). On first run,\n  yoinks downloads the standalone yt-dlp binary to `~/.yoinks/bin` —\n  no Python required. If you already have yt-dlp installed, it uses yours.\n- ffmpeg (needed for merging high-res streams and mp3 extraction) is found\n  on your PATH, with `ffmpeg-static` as a bundled fallback.\n- The UI is [Ink](https://github.com/vadimdemedes/ink) — React for the\n  terminal.\n\n## Development\n\n```sh\nnpm install\nnpm run build        # bundle to dist/ with tsup\nnpm run dev          # rebuild on change\nnode dist/cli.js \nnpm run typecheck\n```\n\nTo try it as a global command without publishing: `npm link`, then run\n`yoinks` anywhere.\n\n## Roadmap\n\n- [ ] `--best` / `--mp3` flags to skip the picker (scriptable mode)\n- [ ] `-o ` to choose the output folder\n- [ ] Playlist / thread-with-multiple-videos support\n- [ ] Clipboard detection: launch bare and auto-suggest the url you copied\n- [ ] Self-update for the bundled yt-dlp binary (`yt-dlp -U`)\n- [x] Publish to npm (`npm i -g yoinks` / `npx yoinks`)\n- [ ] `curl yoinks.sh | sh` installer\n\n## A note on fair use\n\nyoinks is a personal-archiving tool. Downloading content may violate a\nplatform's terms of service — only download what you have the right to\nkeep, and be excellent to creators.\n\n## License\n\n[MIT](LICENSE)",
+    "bilawalsidhu/gods-eye-view": "# 🌐 God's Eye View\n\n \n\n### A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.\n\nPhotorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a realtime AI agent.\n\n_No place left behind._\n\n  \n\n▶️ **From the project behind the viral God's Eye View series** _(formerly WorldView)_ — [5M+ on YouTube](https://youtube.com/playlist?list=PL6qSg2I-7_koPbDnSMo0QeeHX_RknA2uv&si=nBGYMoHWQw41v93Q) · [25M+ across socials](https://www.google.com/search?q=god%27s+eye+view)\n\n🏆 **Reached #1 on GitHub Trending, daily and weekly · August 2026**\n\n**[#8 Product of the Day](https://www.producthunt.com/products/god-s-eye-view?launch=god-s-eye-view)** · Hunted by Chris Messina, creator of the hashtag\n\n_“pretty cool”_ — [Brendan Eich](https://x.com/BrendanEich/status/2094592096401490266), creator of JavaScript and co-founder of Mozilla and Brave · Featured on **[Pinokio](https://pinokio.co/posts/01m1m4p9xxm3qw7dnnpj2wr93g)**\n\n⚡ **Start without API keys.** Install with [Pinokio](https://pinokio.co/apps/github-com-bilawalsidhu-gods-eye-view) or run locally from the terminal. Add optional keys inside the app. **[→ Quick Start](#-quick-start)**\n\n---\n\n**[Quick Start](#-quick-start) · [First Five Minutes](#-the-first-five-minutes) · [Talk to It](#-talk-to-it) · [What's Live](#-whats-on-the-globe) · [Under the Hood](#-under-the-hood) · [Keys & Costs](#-api-keys) · [Contributing](CONTRIBUTING.md)**\n\n---\n\n## 🌍 Why This Exists\n\nGod's Eye View brings public signals into one explorable globe. Track the world live. Talk to it. Break it. Extend it.\n\nFlight transponders, ship beacons, orbital elements, seismographs, and public cameras already tell us a lot about the world. God's Eye View puts them in the same place, so you can move between a global picture and an individual aircraft, ship, or street. It runs locally in your browser, with source code you can inspect and extend.\n\n> Half the magic is that it looks like a forbidden cockpit. The other half is that every line of code is inspectable.\n\nMost feeds are live or regularly refreshed. Traffic is simulated along real\nroads using aggregate location data. CCTV camera poses and rocket launch\ntrajectories are coarse estimates.\n\nStart with the included data sources, then add your own. Each layer is a separate module.\n\n---\n\n## 🎛️ What This Thing Does\n\n- **🛩️ Cockpit view:** Ride inside a tracked flight — the camera holds the terrain under you all the way down.\n- **📡 Contacts:** A 250 km roster of everything near your target — step through live aircraft and drop into any cockpit.\n- **🎯 Click-to-track anything:** Camera locks on, draws a fading trail, surfaces full metadata — and a tracked fire or vessel hands you off to the nearest live camera in one click.\n- **🖊️ Voice whiteboard:** Speak annotations onto the world — real boundary polygons, marks, and routes.\n- **🛫 3D hangar:** Real per-class aircraft models — 787",
+    "tt-a1i/archify": "Turn anything you want to understand, plan, or share into an interactive visual.\n\nStart with an idea, a question, or a plan. Describe it to your AI agent, and Archify turns it into an interactive HTML you can explore, customize, and share. From travel itineraries and learning maps to complex systems—make it your own.\n\nSee what the community is creating—and imagine what you could make next.\n\n  Live demos &nbsp;·&nbsp;\n  Get started &nbsp;·&nbsp;\n  Scenario guide &nbsp;·&nbsp;\n  Community &nbsp;·&nbsp;\n  简体中文 &nbsp;·&nbsp;\n  日本語\n\n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n\n❤️ Partners & sponsors: Kimi Work · Supercode · OpenLux\n\n## See Archify in action\n\nhttps://github.com/user-attachments/assets/78570807-ba1d-4737-953f-55504a378a87\n\n**One sentence. Your repo, mapped.** Watch the 35-second demo: explore the diagram, follow source links, and trace a path. [Try the interactive examples ↗](https://tt-a1i.github.io/archify/gallery.html)\n\n### Install, then describe your idea\n\nWorks with Cursor, Claude Code, Codex CLI, and OpenCode. See installation options below for additional integrations.\n\n```bash\nnpx skills add tt-a1i/archify -g\n```\n\nSend this to your agent:\n\n```text\nUse Archify to diagram a web request: Browser calls the API,\nthe API checks Redis, and a cache miss queries PostgreSQL and fills the cache.\n```\n\nThen continue: “Add authentication”, “Highlight the cache-miss path”, or “Switch to the light theme”.\n\n**No repository is required:** start with a description, or ask your agent to read a repository for a source-backed architecture diagram.\n\n[Choose your agent](https://tt-a1i.github.io/archify/start.html?agent=cursor&type=architecture) · [Installation details and update checks](#quick-start)\n\n## ❤️ Sponsors\n\n  \n\n**Archify × Kimi Work.** Find Archify in the Kimi Work plugin store as **Interactive Architecture Diagram**. Describe your system in one sentence to create an interactive diagram. **[Try it in Kimi Work →](https://www.kimi.ai/?aff=archify)**\n\n  supercode.sh\nSupercode sponsors Archify and enhances Codex and Cursor with token optimization, curated Skills, and spec-driven development. Archify is featured as a Supercode Editor’s Choice skill.\n\nOpenLux\nThank you to OpenLux for sponsoring this project! OpenLux is an all-in-one AI platform for businesses, bringing together leading AI models from major providers worldwide. With fast, reliable service and responsive technical support, OpenLux offers base pricing for Claude, OpenAI, and Gemini models as low as 8.82%, 4%, and 8% of official rates, respectively.Exclusive offer for Archify users: Sign up through our referral link and enjoy up to 7.5% off credit top-ups!Get started with OpenLux →\n\nEverMind · RavenEverMind sponsors Archify and builds memory infrastructure for agents. Its Raven harness supports Archify as a Skill for verified, interactive system maps.\n\n> Want to sponsor Archify? [Contact us by email.](mailto:2801884530@qq.com)\n\n## Show what matters\n\n| Explain an agent workflow | Follow a cache ",
+    "ayghri/i-have-adhd": "ADHD-friendly outputs. No ADHD diagnosis needed!\n\n  \n\n  🇬🇧 ·\n  🇨🇳 ·\n  🇪🇸 ·\n  🇧🇷 ·\n  🇯🇵 ·\n  🇻🇳 ·\n  🇰🇷 ·\n  🇮🇷 ·\n  🇹🇭 ·\n  🇸🇦\n\n## Install\n\nCopy/paste into your CLI prompt:\n\n```text\nInstall the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.\n```\n\nOr 🔗 [check the installation instructions](INSTALL.md).\n\n## What it does\n\nA skill for your coding assistant that stops it from burying the answer. Action first. Steps numbered. No \"Hope this helps!\"\n\n[Kacper Rutkiewicz | AI Made Simple](https://youtu.be/NEl8kPWZP_Y) has made a good breakdown of an earlier version of the skill.\n## What changes\n\n## Before\n\n> Great question! Let me think about this. Your auth flow has a few moving pieces: the middleware, the token verification, and the cookie handling. Looking at `src/auth.ts`, the `verifyToken` function (around lines 42-58) seems to be using an older `jsonwebtoken` API. One approach would be to update the package and rewrite that function. After making the change, you'd want to run the auth tests to confirm nothing breaks. By the way, you might also want to look at your dependency versions overall. Hope this helps! Let me know if you want to dig deeper.\n\n## After\n\n> Run `npm install jsonwebtoken@latest`, then edit `src/auth.ts:42`.\n>\n> 1. Open `src/auth.ts`\n> 2. Replace `verifyToken` (lines 42–58) with the snippet below\n> 3. Run `npm test -- auth.spec.ts`\n>\n> Next: paste the first failing line if any test fails.\n\n## The rules\n\n10 rules. Full text in [SKILL.md](./skills/i-have-adhd/SKILL.md).\n\n1. Lead with the next action.\n2. Number multi-step tasks.\n3. End with one concrete next step.\n4. Suppress tangents.\n5. Restate state every turn.\n6. Specific time estimates (minutes, not \"a bit\").\n7. Make wins visible.\n8. Matter-of-fact errors.\n9. Cap lists to 5 items.\n10. No preamble. No recap. No closers.\n\n## Tune it\n\nFork, edit `skills/i-have-adhd/SKILL.md`, then swap your copy in:\n\n```bash\nclaude plugin uninstall i-have-adhd            # drop the upstream copy first:\nclaude plugin marketplace remove i-have-adhd   # fork and upstream share both names\nclaude plugin marketplace add /i-have-adhd\nclaude plugin install i-have-adhd@i-have-adhd\n```\n\nRestart your coding assistant, then re-invoke `/i-have-adhd`.\n\n## Credits\n\nLoosely based on *The Adult ADHD Tool Kit* by J. Russell Ramsay and Anthony L. Rostain. Adapted for how an LLM should respond, not how a human should organize their day.\n\n## License\n\n[MIT](LICENSE).\n\nStar ⭐ if it saved you one scroll past one \"Great question!\"",
+    "affaan-m/ECC": "Language:\n  English |\n  Português (Brasil) |\n  简体中文 |\n  繁體中文 |\n  日本語 |\n  한국어 |\n  Türkçe |\n  Русский |\n  Tiếng Việt |\n  ไทย |\n  Deutsch |\n  Español |\n  Українська |\n  Polski\n\n  \n  \n  \n  \n\n  \n  \n  \n  \n\n  \n  \n\n  \n  \n  \n  \n  \n  \n  \n\n> [!WARNING]\n> **Official sources only.** Install ECC only from verified channels: the GitHub repository [github.com/affaan-m/ECC](https://github.com/affaan-m/ECC), the npm packages [`ecc-universal`](https://www.npmjs.com/package/ecc-universal) and [`ecc-agentshield`](https://www.npmjs.com/package/ecc-agentshield), the [GitHub App](https://github.com/apps/ecc-tools), the plugin slug `ecc@ecc`, and the project website [ecc.tools](https://ecc.tools). Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware.\n\n## Install with Claude Code\n\nUse the [guided setup](#install-ecc) or [native plugin commands](#claude-code-details). Both install the same `ecc@ecc` plugin. Choose one and do not stack a full manual Claude install on top.\n\n  \n    \n    ECC Pro + GitHub App\n  \n  Install free · Private repos from $19/seat/mo\n\n  \n    \n    Sponsor ECC\n  \n  Fund the open-source project\n\n  \n    \n    Community\n  \n  Discord · Q&amp;A · Show and Tell\n\n**OSS stays free.** This repo is MIT-licensed forever. ECC Pro is the hosted GitHub App for private repos. Sponsors and Pro subscribers fund the work. That's why a single maintainer ships weekly across 7 harnesses.\n\nPartners &amp; sponsors\n\n  &nbsp;&nbsp;&nbsp;\n  &nbsp;&nbsp;&nbsp;\n  &nbsp;&nbsp;&nbsp;\n  &nbsp;&nbsp;&nbsp;\n  \n\nPast sponsors: Atlas Cloud · Mike Morgan (inactive)\n\nCommunity sponsors: @jasonwu513 · @1anter · @massimotodaro · @meadmccabe\n\nBecome a Sponsor · Sponsor Tiers · Sponsorship Program\n\nJump to install ↓\n\n# ECC\n\nYour agent can write code, but ECC gives it a coordinated engineering system and toolbox: it plans before it builds, verifies changes with tests, reviews its own work from a fresh context, remembers what matters, and turns repeated wins into reusable skills and workflows.\n\n```text\nplan -> test -> implement -> review -> verify -> remember -> improve\n```\n\nInstead of rebuilding that process in every prompt, you install it once and make it part of how your agent works.\n\n> Optimize the context window. Persist everything else.\n\nECC is MIT-licensed open source. It works best with Claude Code today, has a supported Codex sync path, and provides capability-limited adapters for Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen, and other harnesses. See the [support status matrix](#platform-support) before assuming feature parity.\n\nAccess to 68 agents, 293 skills, and 94 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.\n\n| Included         |       Count | What it gives you                                                                    |\n| -----------",
+    "alibaba/open-code-review": "OpenCodeReview\n\n  \n    \n  \n\n  \n    \n  \n  \n    \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n  \n  \n  \n  \n  \n\n  English | 简体中文 | 日本語 | 한국어 | Русский\n\n---\n\n## What is Open Code Review?\n\nOpen Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group's internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. After thorough validation at massive scale, we incubated it into an open source project for the community. Simply configure a model endpoint to get started.\n\nIt reads Git diffs, sends changed files to a configurable LLM via an agent with tool-use capabilities, and generates structured review comments with line-level precision. The agent can read full file contents, search the codebase, inspect other changed files for context, and produce deep reviews — not just surface-level diff feedback. Beyond diff review, `ocr scan` reviews entire files for auditing unfamiliar codebases or directories that have no meaningful diff.\n\nVisit the [official website](https://open-codereview.ai) for more details.\n\n## Benchmark\n\n> Compared to general-purpose agents (Claude Code), Open Code Review achieves significantly higher **Precision** and **F1** with the same underlying model, while consuming only **~1/9 of the tokens** and completing reviews faster. Note that its Recall is lower than general-purpose agents — a deliberate trade-off favoring precision over noise.\n\nA real-world code review benchmark built from **50** popular open-source repositories, **200** real Pull Requests, and **10** programming languages — cross-validated by 80+ senior engineers (**1,505** annotated ground-truth issues).\n\n Explore the AACR-Bench dataset on Hugging Face.\n\n| Metric | What it measures | Why it matters |\n|--------|-----------------|----------------|\n| **F1** | Harmonic mean of precision and recall | Best single number for overall review quality |\n| **Precision** | Proportion of reported issues that are real defects | Higher = fewer false alarms to triage |\n| **Recall** | Proportion of real defects that are found | Higher = fewer issues slip through review |\n| **Avg Time** | Wall-clock time per review | Matters for CI pipeline latency |\n| **Avg Token** | Total tokens consumed per review | Directly impacts API cost |\n\n## Why Open Code Review?\n\n### The Problem with General-Purpose Agents\n\nIf you've used general-purpose agents like Claude Code with Skills for code review, you've likely encountered these pain points:\n\n- **Incomplete coverage** — On larger changesets, agents tend to \"cut corners,\" selectively reviewing only some files and missing others.\n- **Position drift** — Reported issues frequently don't match the actual code location, with line numbers or file references drifting off target.\n- **Unstable quality** — Natural-language-driven Skills are hard to debug, and review quality fluctuates significantly with minor prompt variations.\n\nThe root cause: a purely language-drive",
+    "Tencent/WeKnora": "English · 简体中文 · 日本語 · 한국어\n\n  Overview ·\n  Quick Start ·\n  What's New ·\n  Features ·\n  Clients ·\n  Docs ·\n  Development\n\n  \n\n## Overview\n\n[WeKnora](https://weknora.weixin.qq.com) is an open-source, LLM-powered knowledge framework for enterprise document understanding, semantic retrieval and reasoning. It brings a team's documents together so they can be searched, reasoned over and kept up to date.\n\nhttps://github.com/user-attachments/assets/5722b10d-d04d-49ed-a6cc-635a8c77d91f\n\n1:52 · 1080p · No narration, English on-screen text\n\nUse RAG to look things up, the agent for multi-step tasks, and the wiki to organize knowledge. All three work on the same knowledge bases.\n\n  \n  \n\n**The agent's toolbox.** Skills installed from ClawHub / SkillHub / Git / ZIP run in session-persistent Docker / E2B / Cube sandboxes, with an interactive terminal and graphical desktop beside the chat. Through the BrowserSkill extension the agent operates the user's own Chrome or Edge, and external MCP services (OAuth included) can be connected and enabled tool by tool.\n\nBeyond the three modes:\n\n- **Memory and curation**: cross-session long-term memory keeps the profile, preferences and facts a user has confirmed. Folder uploads keep their directory tree, and retrieval chunks can be edited, diffed and rolled back.\n- **Data sources and formats**: auto-sync from Feishu wiki / Feishu Drive / Confluence / GitLab / Tencent IMA / Notion / Yuque / DingTalk Docs / RSS, with more on the way. 10+ document formats including PDF, Word, images, Excel and XMind; Office files are parsed in-process by anydoc.\n- **Channels and integrations**: Q&A in WeCom, Feishu, Slack, Telegram and other IM apps; an embed widget for external websites; a built-in MCP Server for Cursor, Claude and other AI tools; scoped API keys with a principal model for programmatic access.\n- **Models**: 27 built-in vendors with a generated model catalog, including OpenAI, DeepSeek, Qwen (Alibaba Cloud), Zhipu, Hunyuan, Gemini, MiniMax, NVIDIA, LiteLLM and Ollama.\n- **Permissions and operations**: multi-workspace RBAC (four roles, per-resource ownership, per-workspace audit log), several storage instances per workspace, a runtime task-queue dashboard with worker-pool governance, and Langfuse tracing for agent steps, token usage and pipelines.\n- **Deployment**: LLMs, vector databases and storage backends are all swappable. Deploy locally or on a private cloud and keep the data in your own environment.\n\n## Quick Start\n\n  \n    \n      \n      ONLINE\n      WeChat Dialog Open Platform\n      Manage knowledge bases online and connect Q&A to Official Accounts, Mini Programs and other WeChat scenarios.\n      Open the platform →\n    \n    \n      \n      CLOUD\n      Tencent Cloud Lighthouse\n      Deploy WeKnora from an application template and run it on your own cloud server.\n      Deploy on Tencent Cloud →\n    \n    \n      \n      SELF-HOSTED\n      Your own environment\n      Deploy with Docker or Kubernetes and configure models, storage an"
+  }
+}
