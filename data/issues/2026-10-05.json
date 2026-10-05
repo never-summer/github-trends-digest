@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-05",
+  "title": "Локальный голос обогнал память",
+  "lede": "Неделю возглавил локальный голосовой AI VoiceStudio (+14.7k), а Hindsight и Paperclip после прошлого рывка замедлились. В недельный топ вернулись skills для coding-агентов, появился новый проект про команды агентов OpenRig.",
+  "tops": {
+    "week": {
+      "caption": "Последние 7 дней · на 5 октября",
+      "items": [
+        {
+          "repo": "debpalash/VoiceStudio",
+          "category": "локальные LLM",
+          "description": "Локальная замена ElevenLabs: клонирование голоса, дубляж, диктовка, MCP",
+          "stars": "+14.7k"
+        },
+        {
+          "repo": "vectorize-io/hindsight",
+          "category": "память",
+          "description": "Память агента, которая учится: retain / recall / reflect, MCP-сервер",
+          "stars": "+10.6k"
+        },
+        {
+          "repo": "paperclipai/paperclip",
+          "category": "оркестрация",
+          "description": "Команда агентов как компания: цели, бюджеты, учёт затрат, аудит",
+          "stars": "+8.7k"
+        },
+        {
+          "repo": "DietrichGebert/ponytail",
+          "category": "skill",
+          "description": "Skill: агент пишет меньше кода — сначала переиспользует и берёт stdlib",
+          "stars": "+7.9k"
+        },
+        {
+          "repo": "rohitg00/ai-engineering-from-scratch",
+          "category": "",
+          "description": "Бесплатный курс AI-инженерии: 523 урока, у каждого — артефакт",
+          "stars": "+4.9k"
+        },
+        {
+          "repo": "Panniantong/Agent-Reach",
+          "category": "инструмент",
+          "description": "Один CLI, чтобы агент читал веб, YouTube, Reddit, Twitter, GitHub",
+          "stars": "+4.8k"
+        },
+        {
+          "repo": "mvschwarz/openrig",
+          "category": "оркестрация",
+          "description": "Команда агентов в YAML: Claude Code и Codex в одной системе",
+          "stars": "+4.3k"
+        },
+        {
+          "repo": "pbakaus/impeccable",
+          "category": "skill",
+          "description": "Skill и CLI для фронтенд-дизайна агентов: 24 команды, 61 правило",
+          "stars": "+4.2k"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "category": "инструмент",
+          "description": "HTML и анимации в детерминированное MP4, со skills для агентов",
+          "stars": "+3.1k"
+        },
+        {
+          "repo": "pablostanley/yoinks",
+          "category": "",
+          "description": "Скачивание видео из терминала, обёртка над yt-dlp",
+          "stars": "+2.4k"
+        }
+      ]
+    },
+    "month": {
+      "caption": "Последние 30 дней · на 5 октября",
+      "items": [
+        {
+          "repo": "DietrichGebert/ponytail",
+          "category": "skill",
+          "description": "Skill: агент пишет меньше кода, как ленивый сеньор",
+          "stars": "+30.5k"
+        },
+        {
+          "repo": "bilawalsidhu/gods-eye-view",
+          "category": "",
+          "description": "3D-глобус с живыми публичными данными: самолёты, суда, спутники",
+          "stars": "+30.3k"
+        },
+        {
+          "repo": "tt-a1i/archify",
+          "category": "skill",
+          "description": "Skill: интерактивные HTML-диаграммы из описания или репозитория",
+          "stars": "+30.2k"
+        },
+        {
+          "repo": "ayghri/i-have-adhd",
+          "category": "skill",
+          "description": "Skill: агент отвечает с действия, шагами, без воды",
+          "stars": "+26.6k"
+        },
+        {
+          "repo": "affaan-m/ECC",
+          "category": "harness",
+          "description": "Оптимизация harness: skills, память, безопасность для разных агентов",
+          "stars": "+26.3k"
+        },
+        {
+          "repo": "vectorize-io/hindsight",
+          "category": "память",
+          "description": "Память агента, которая учится",
+          "stars": "+23.2k"
+        },
+        {
+          "repo": "alibaba/open-code-review",
+          "category": "инструмент",
+          "description": "Code review: детерминированные пайплайны + LLM-агент, свой endpoint",
+          "stars": "+22.1k"
+        },
+        {
+          "repo": "paperclipai/paperclip",
+          "category": "оркестрация",
+          "description": "Оркестрация команды агентов с бюджетами и аудитом",
+          "stars": "+17.4k"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "category": "инструмент",
+          "description": "HTML и анимации в детерминированное MP4, со skills для агентов",
+          "stars": "+12.9k"
+        },
+        {
+          "repo": "Tencent/WeKnora",
+          "category": "RAG",
+          "description": "База знаний на LLM: RAG, агент и вики поверх одних документов",
+          "stars": "+10.9k"
+        }
+      ]
+    },
+    "quarter": {
+      "caption": "Квартал с 1 октября · сумма 1 недельного среза · квартал только начался",
+      "items": [
+        {
+          "repo": "debpalash/VoiceStudio",
+          "category": "локальные LLM",
+          "description": "Локальный голосовой AI",
+          "stars": "≈15k"
+        },
+        {
+          "repo": "vectorize-io/hindsight",
+          "category": "память",
+          "description": "Память агента, которая учится",
+          "stars": "≈11k"
+        },
+        {
+          "repo": "paperclipai/paperclip",
+          "category": "оркестрация",
+          "description": "Оркестрация команды агентов",
+          "stars": "≈9k"
+        },
+        {
+          "repo": "DietrichGebert/ponytail",
+          "category": "skill",
+          "description": "Skill «меньше кода»",
+          "stars": "≈8k"
+        },
+        {
+          "repo": "rohitg00/ai-engineering-from-scratch",
+          "category": "",
+          "description": "Курс AI-инженерии",
+          "stars": "≈5k"
+        },
+        {
+          "repo": "Panniantong/Agent-Reach",
+          "category": "инструмент",
+          "description": "Доступ агента к интернет-платформам",
+          "stars": "≈5k"
+        },
+        {
+          "repo": "mvschwarz/openrig",
+          "category": "оркестрация",
+          "description": "Сеть агентов из Claude Code и Codex",
+          "stars": "≈4k"
+        },
+        {
+          "repo": "pbakaus/impeccable",
+          "category": "skill",
+          "description": "Дизайн-skill для coding-агентов",
+          "stars": "≈4k"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "category": "инструмент",
+          "description": "Рендер HTML в видео для агентов",
+          "stars": "≈3k"
+        },
+        {
+          "repo": "pablostanley/yoinks",
+          "category": "",
+          "description": "Скачивание видео из терминала",
+          "stars": "≈2k"
+        }
+      ]
+    }
+  },
+  "trends": [
+    {
+      "title": "Голос вышел на первое место",
+      "body": "`VoiceStudio` вырос с +12.7k до +14.7k за неделю и возглавил топ — единственный из прошлой тройки лидеров, кто ускорился. Аргумент тот же: клонирование голоса, дубляж и диктовка на своём железе, удалённые сервисы опциональны, есть локальный API и MCP для агентов."
+    },
+    {
+      "title": "Память и оркестрация остывают, но держатся",
+      "body": "`hindsight` замедлился с +17.4k до +10.6k, `paperclip` — с +12.9k до +8.7k. Оба остались на втором и третьем местах недели, а в месячном топе `paperclip` поднялся с +14.6k до +17.4k. Прошлый рывок памяти оказался волной, а не устойчивым темпом, — но и не провалом."
+    },
+    {
+      "title": "Новый претендент на команды агентов",
+      "body": "`openrig` набрал +4.3k при 5079 звёздах всего, то есть почти весь рост пришёлся на эту неделю. Идея — команда агентов в YAML, Claude Code и Codex в одном rig с ролями, общим контекстом и закреплённой работой. Из недельного топа при этом выпал `orca`, так что тема держится, а проекты в ней меняются."
+    },
+    {
+      "title": "Skills вернулись в недельный топ",
+      "body": "Прошлый вывод «skills держат месяц, но не неделю» не подтвердился: `ponytail` (+7.9k) вошёл в недельный топ и возглавил месячный (+30.5k), `impeccable` вырос с +2.6k до +4.2k, `hyperframes` (+3.1k) ставится как плагин со skills. `archify` при этом опустился в месячном топе с +45.2k до +30.2k."
+    },
+    {
+      "title": "Агенту — доступ к внешнему вебу",
+      "body": "`Agent-Reach` (+4.8k) одной командой даёт агенту чтение веба, YouTube, RSS, Reddit, Twitter, Bilibili и Xiaohongshu без платных API, с диагностикой `agent-reach doctor` и cookies только на локальной машине. Рядом в топе `yoinks` — загрузка видео из терминала поверх yt-dlp, но уже для людей, не для агентов."
+    },
+    {
+      "title": "Офисные и отраслевые проекты выпали",
+      "body": "Из недельного топа ушли `univer`, `CLI-Anything`, `financial-services`, `orca` и `WeKnora`. `WeKnora` зато поднялся в месячный топ (+10.9k), вытеснив `OpenMAIC`."
+    },
+    {
+      "title": "Квартал начался заново",
+      "body": "С 1 октября квартальный топ считается с нуля: в нём один срез, поэтому он совпадает с недельным. Различаться они начнут со следующего выпуска."
+    }
+  ],
+  "picks": [
+    {
+      "title": "База знаний в закрытом контуре",
+      "body": "`WeKnora` в README прямо пишет, что LLM, векторные базы и хранилища заменяемы, а развернуть можно локально или в частном облаке, оставив данные у себя; среди вендоров есть Ollama. Плюс RBAC по рабочим пространствам с аудит-логом и синхронизация с Confluence и GitLab — кандидат для поиска по документации платформы."
+    },
+    {
+      "title": "Меньше кода в пайплайнах от агентов",
+      "body": "`ponytail` — один промпт-skill, который заставляет агента сначала проверить, нужен ли код, нет ли его уже в репозитории, в stdlib или в установленных зависимостях. Авторы заявляют ~54% меньше кода на замере в Claude Code (12 задач, Haiku 4.5, n=4) — выборка маленькая, стоит проверить на своих задачах."
+    },
+    {
+      "title": "Проверка вёрстки дашбордов без LLM",
+      "body": "`impeccable` — дизайн-skill для фронтенда, а его CLI и расширение браузера запускают 61 детерминированное правило без LLM и API-ключа. Это можно гонять и в закрытом контуре по интерфейсам дашбордов и внутренних инструментов."
+    },
+    {
+      "title": "Ревью SQL и кода своей моделью",
+      "body": "`open-code-review` держится в месячном топе (+22.1k): работает с любым настроенным endpoint модели, оставляет построчные замечания, в правилах есть SQL injection, а `ocr scan` ревьюит целые файлы без diff — для аудита унаследованного кода."
+    },
+    {
+      "title": "Команда агентов из Claude Code и Codex",
+      "body": "`openrig` описывает команду агентов в YAML и поднимает её одной командой. Перед установкой README просит прочитать, что он меняет на машине: пишет хуки провайдеров и настройки доверия к рабочему пространству. Пока на радар.",
+      "radar": true
+    }
+  ],
+  "skip": "`VoiceStudio` и `yoinks` — голос и видео, к аналитике не относятся; `Agent-Reach` завязан на внешние соцсети и в закрытом контуре бесполезен; `gods-eye-view` и `ai-engineering-from-scratch` — витрина публичных данных и курс."
+}
