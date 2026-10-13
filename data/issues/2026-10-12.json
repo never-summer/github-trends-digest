@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-12",
+  "title": "Агенты взялись за реверс-инжиниринг",
+  "lede": "Неделю с огромным отрывом взял REA — MCP для реверс-инжиниринга приложений и бинарников (+127.0k). Недельный топ сменился почти целиком: VoiceStudio, Hindsight и Paperclip ушли из него и держатся теперь в месячном.",
+  "tops": {
+    "week": {
+      "caption": "Последние 7 дней · на 12 октября",
+      "items": [
+        {
+          "repo": "morluto/rea",
+          "category": "инструмент",
+          "description": "MCP для реверс-инжиниринга: бинарники, Electron, .NET, сайты",
+          "stars": "+127.0k"
+        },
+        {
+          "repo": "boykopovar/AnyPS5",
+          "category": "",
+          "description": "Порт исполняемых файлов PS5 на Linux и Windows без эмуляции",
+          "stars": "+25.2k"
+        },
+        {
+          "repo": "mattpocock/skills",
+          "category": "skill",
+          "description": "Небольшие композируемые skills для инженеров, с любой моделью",
+          "stars": "+10.3k"
+        },
+        {
+          "repo": "DuarteSantos8/openGym",
+          "category": "",
+          "description": "Self-hosted трекер тренировок и веса: docker compose, вход по passkey",
+          "stars": "+7.4k"
+        },
+        {
+          "repo": "tester-army/e2e",
+          "category": "инструмент",
+          "description": "E2E-тесты: агент проходит приложение по цели, повтор — без модели",
+          "stars": "+6.4k"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "category": "инструмент",
+          "description": "HTML и анимации в детерминированное MP4, со skills для агентов",
+          "stars": "+4.2k"
+        },
+        {
+          "repo": "thedotmack/claude-mem",
+          "category": "память",
+          "description": "Память между сессиями Claude Code: сжатые наблюдения агента",
+          "stars": "+3.8k"
+        },
+        {
+          "repo": "earthtojake/text-to-cad",
+          "category": "инструмент",
+          "description": "Плагин агента для CAD: STEP, STL, 3MF, проверки и чертежи",
+          "stars": "+2.5k"
+        },
+        {
+          "repo": "mvschwarz/openrig",
+          "category": "оркестрация",
+          "description": "Команда агентов в YAML: Claude Code и Codex в одной системе",
+          "stars": "+2.0k"
+        },
+        {
+          "repo": "cursor/plugins",
+          "category": "инструмент",
+          "description": "Спецификация и официальные плагины Cursor",
+          "stars": "+1.1k"
+        }
+      ]
+    },
+    "month": {
+      "caption": "Последние 30 дней · на 12 октября",
+      "items": [
+        {
+          "repo": "debpalash/VoiceStudio",
+          "category": "локальные LLM",
+          "description": "Локальная замена ElevenLabs: клонирование голоса, дубляж, диктовка, MCP",
+          "stars": "+36.0k"
+        },
+        {
+          "repo": "vectorize-io/hindsight",
+          "category": "память",
+          "description": "Память агента, которая учится: retain / recall / reflect",
+          "stars": "+25.2k"
+        },
+        {
+          "repo": "bilawalsidhu/gods-eye-view",
+          "category": "",
+          "description": "3D-глобус с живыми публичными данными: самолёты, суда, спутники",
+          "stars": "+25.1k"
+        },
+        {
+          "repo": "alibaba/open-code-review",
+          "category": "инструмент",
+          "description": "Code review: детерминированные пайплайны + LLM-агент, свой endpoint",
+          "stars": "+24.1k"
+        },
+        {
+          "repo": "affaan-m/ECC",
+          "category": "harness",
+          "description": "Оптимизация harness: skills, память, безопасность для разных агентов",
+          "stars": "+22.4k"
+        },
+        {
+          "repo": "paperclipai/paperclip",
+          "category": "оркестрация",
+          "description": "Оркестрация команды агентов: цели, бюджеты, учёт затрат",
+          "stars": "+20.0k"
+        },
+        {
+          "repo": "JustVugg/colibri",
+          "category": "локальные LLM",
+          "description": "Большие MoE-модели на своём железе: чистый C, эксперты с диска",
+          "stars": "+13.7k"
+        },
+        {
+          "repo": "rohitg00/ai-engineering-from-scratch",
+          "category": "",
+          "description": "Бесплатный курс AI-инженерии: 528 уроков, 20 фаз",
+          "stars": "+13.4k"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "category": "инструмент",
+          "description": "HTML и анимации в детерминированное MP4, со skills для агентов",
+          "stars": "+12.0k"
+        },
+        {
+          "repo": "addyosmani/agent-skills",
+          "category": "skill",
+          "description": "Skills на весь цикл разработки: от /spec и /plan до /ship",
+          "stars": "+11.9k"
+        }
+      ]
+    },
+    "quarter": {
+      "caption": "Квартал с 1 октября · сумма 2 недельных срезов",
+      "items": [
+        {
+          "repo": "morluto/rea",
+          "category": "инструмент",
+          "description": "Реверс-инжиниринг через MCP",
+          "stars": "≈127k"
+        },
+        {
+          "repo": "boykopovar/AnyPS5",
+          "category": "",
+          "description": "Порт игр PS5 на Linux и Windows",
+          "stars": "≈25k"
+        },
+        {
+          "repo": "debpalash/VoiceStudio",
+          "category": "локальные LLM",
+          "description": "Локальный голосовой AI",
+          "stars": "≈15k"
+        },
+        {
+          "repo": "vectorize-io/hindsight",
+          "category": "память",
+          "description": "Память агента, которая учится",
+          "stars": "≈11k"
+        },
+        {
+          "repo": "mattpocock/skills",
+          "category": "skill",
+          "description": "Skills для инженеров",
+          "stars": "≈10k"
+        },
+        {
+          "repo": "paperclipai/paperclip",
+          "category": "оркестрация",
+          "description": "Оркестрация команды агентов",
+          "stars": "≈9k"
+        },
+        {
+          "repo": "DietrichGebert/ponytail",
+          "category": "skill",
+          "description": "Skill «меньше кода»",
+          "stars": "≈8k"
+        },
+        {
+          "repo": "DuarteSantos8/openGym",
+          "category": "",
+          "description": "Self-hosted фитнес-трекер",
+          "stars": "≈7k"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "category": "инструмент",
+          "description": "Рендер HTML в видео для агентов",
+          "stars": "≈7k"
+        },
+        {
+          "repo": "tester-army/e2e",
+          "category": "инструмент",
+          "description": "E2E-тесты с агентом",
+          "stars": "≈6k"
+        }
+      ]
+    }
+  },
+  "trends": [
+    {
+      "title": "Реверс-инжиниринг собрал рекорд",
+      "body": "`rea` набрал +127.0k при 131862 звёздах всего — почти весь рост пришёлся на одну неделю, и это в восемь с лишним раз больше, чем у прошлого лидера `VoiceStudio` (+14.7k). Это один MCP-сервер, через который агент без исходников разбирает нативные бинарники, Electron-приложения, сборки .NET и сайты и объясняет, как устроена функция."
+    },
+    {
+      "title": "Недельный топ сменился почти целиком",
+      "body": "Из прошлой десятки остались только `hyperframes` (вырос с +3.1k до +4.2k) и `openrig` (замедлился с +4.3k до +2.0k). Ушли `VoiceStudio`, `hindsight`, `paperclip`, `ponytail`, `ai-engineering-from-scratch`, `Agent-Reach`, `impeccable` и `yoinks`. Прошлая волна теперь видна в месячном топе: `VoiceStudio` возглавил его (+36.0k), `paperclip` вырос с +17.4k до +20.0k."
+    },
+    {
+      "title": "Агенты уходят в прикладные инженерные задачи",
+      "body": "Рядом с `rea` в недельном топе `e2e` (+6.4k) — агент проходит веб- или мобильное приложение по цели, записанной на естественном языке, — и `text-to-cad` (+2.5k), который генерирует 3D-модели, чертежи и проверки на технологичность. `rea` и `text-to-cad` ставятся как MCP или плагин к уже существующим агентам."
+    },
+    {
+      "title": "Одиночные skills уступают наборам",
+      "body": "Из месячного топа выпали `ponytail` (был первым с +30.5k), `archify` и `i-have-adhd`. Вместо них — наборы: `agent-skills` (+11.9k за месяц) с девятью командами на весь цикл разработки, а в недельном топе `mattpocock/skills` (+10.3k) и официальные плагины `cursor/plugins` (+1.1k)."
+    },
+    {
+      "title": "Память сменила лидера недели",
+      "body": "`hindsight` ушёл из недельного топа, но в месячном вырос с +23.2k до +25.2k. В неделю вошёл `claude-mem` (+3.8k): он записывает действия агента, сжимает их в семантические сводки и подмешивает их в следующие сессии."
+    },
+    {
+      "title": "Локально: от голоса к большим моделям",
+      "body": "В месячный топ вошёл `colibri` (+13.7k) — запуск MoE-моделей на сотни миллиардов параметров без GPU: в RAM держится часть, нужная на токен, эксперты читаются с диска. В README пример — GLM-5.2 на 744B в int4 на CPU с резидентной памятью 9.9 GB."
+    }
+  ],
+  "picks": [
+    {
+      "title": "E2E-тесты дашбордов на естественном языке",
+      "body": "`e2e` описывает шаг теста целью на естественном языке, агент проходит приложение, а результат проверяется обычными локаторами. Записанные действия при следующих прогонах воспроизводятся без вызова модели, пока приложение не изменилось; модель можно взять свою, в том числе локальную, — подходит для регрессии интерфейсов дашбордов в закрытом контуре."
+    },
+    {
+      "title": "Ревью SQL с меньшим расходом токенов",
+      "body": "`open-code-review` вырос в месячном топе с +22.1k до +24.1k. По замеру авторов, с той же моделью он выигрывает у Claude Code по precision и F1 и тратит около 1/9 токенов, но recall ниже — сознательный выбор в пользу меньшего шума. Для ревью на своей модели с ограниченным бюджетом это прямой аргумент."
+    },
+    {
+      "title": "Ponytail перемерили на большой выборке",
+      "body": "В прошлом выпуске замер `ponytail` был на 12 задачах. Ponytail 5 проверили на 39 задачах, включая реальный репозиторий FastAPI + React, на Opus 5.5 по 5 прогонов: на 53% меньше кода, на 41% меньше времени, рискованная логика уходит с тестом в 98% случаев против 68% без skill. Шесть задач безопасности, включая SQL injection, прошли во всех 30 прогонах."
+    },
+    {
+      "title": "Skills на весь цикл разработки",
+      "body": "`agent-skills` даёт девять команд от /spec и /plan до /review и /ship, каждая включает нужные skills. Альтернатива — `mattpocock/skills`: небольшие композируемые skills, которые работают с любой моделью и правятся под себя. Годятся как основа общих правил для агентов команды платформы."
+    },
+    {
+      "title": "Большая модель в закрытом контуре без GPU",
+      "body": "`colibri` запускает MoE-модели на CPU, читая экспертов с диска. Минимум по README — 8 GB RAM и 22 GB на диске для самой маленькой модели; среди движков GLM, Kimi K3, DeepSeek V4 Flash, Qwen3.6 и Qwen3-Coder. Скорость на своём железе для Text2SQL нужно замерить до выводов.",
+      "radar": true
+    },
+    {
+      "title": "Память между сессиями — проверить, где она хранится",
+      "body": "`claude-mem` сохраняет наблюдения агента между сессиями. В инструкции по установке по умолчанию стоит хостинговая память CMEM Pro, а локальный режим включается флагом --provider host — для закрытого контура подходит только он.",
+      "radar": true
+    }
+  ],
+  "skip": "`AnyPS5`, `openGym` и `gods-eye-view` — игры, фитнес и витрина публичных данных; `rea` разбирает чужие приложения, платформе он не нужен; `hyperframes`, `text-to-cad` и `VoiceStudio` — видео, CAD и голос."
+}
