@@ -1,0 +1,253 @@
+{
+  "date": "2026-10-19",
+  "title": "Реверс-инжиниринг тянет за собой Ghidra",
+  "lede": "REA вторую неделю подряд на первом месте и ускорился: +229.3k против +127.0k неделей раньше, а следом в недельный топ вошла Ghidra (+7.6k). В месячном топе впервые появилась безопасность агентов: skill аудита от Cloudflare и песочница OpenShell от NVIDIA.",
+  "tops": {
+    "week": {
+      "caption": "Последние 7 дней · на 19 октября",
+      "items": [
+        {
+          "repo": "morluto/rea",
+          "category": "инструмент",
+          "description": "MCP для реверс-инжиниринга: бинарники, Electron, .NET, сайты",
+          "stars": "+229.3k"
+        },
+        {
+          "repo": "storytold/artcraft",
+          "category": "",
+          "description": "IDE для AI-картинок и видео: композиция в 2D, сцены в 3D, выбор моделей",
+          "stars": "+16.4k"
+        },
+        {
+          "repo": "boykopovar/AnyPS5",
+          "category": "",
+          "description": "Порт исполняемых файлов PS5 на Linux и Windows без эмуляции",
+          "stars": "+14.2k"
+        },
+        {
+          "repo": "cathrynlavery/diagram-design",
+          "category": "skill",
+          "description": "Skill: диаграммы одним файлом HTML + SVG в стиле бренда, 45 типов",
+          "stars": "+7.9k"
+        },
+        {
+          "repo": "NationalSecurityAgency/ghidra",
+          "category": "инструмент",
+          "description": "Фреймворк реверс-инжиниринга от NSA: дизассемблер, декомпилятор, скрипты",
+          "stars": "+7.6k"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "category": "инструмент",
+          "description": "HTML и анимации в детерминированное MP4, со skills для агентов",
+          "stars": "+5.9k"
+        },
+        {
+          "repo": "MadsLorentzen/ai-job-search",
+          "category": "",
+          "description": "Поиск работы на Claude Code: оценка вакансий, резюме, письма, интервью",
+          "stars": "+5.7k"
+        },
+        {
+          "repo": "anthropics/claude-plugins-official",
+          "category": "инструмент",
+          "description": "Официальный каталог плагинов Claude Code от Anthropic",
+          "stars": "+4.8k"
+        },
+        {
+          "repo": "mksglu/context-mode",
+          "category": "harness",
+          "description": "MCP для экономии контекста: вывод инструментов в песочнице, память сессии",
+          "stars": "+4.1k"
+        },
+        {
+          "repo": "cursor/plugins",
+          "category": "инструмент",
+          "description": "Спецификация и официальные плагины Cursor",
+          "stars": "+1.7k"
+        }
+      ]
+    },
+    "month": {
+      "caption": "Последние 30 дней · на 19 октября",
+      "items": [
+        {
+          "repo": "debpalash/VoiceStudio",
+          "category": "локальные LLM",
+          "description": "Локальная замена ElevenLabs: клонирование голоса, дубляж, диктовка, MCP",
+          "stars": "+42.0k"
+        },
+        {
+          "repo": "vectorize-io/hindsight",
+          "category": "память",
+          "description": "Память агента, которая учится: retain / recall / reflect",
+          "stars": "+27.6k"
+        },
+        {
+          "repo": "paperclipai/paperclip",
+          "category": "оркестрация",
+          "description": "Оркестрация команды агентов: цели, бюджеты, учёт затрат",
+          "stars": "+23.3k"
+        },
+        {
+          "repo": "affaan-m/ECC",
+          "category": "harness",
+          "description": "Оптимизация harness: skills, память, безопасность для разных агентов",
+          "stars": "+23.1k"
+        },
+        {
+          "repo": "cloudflare/security-audit-skill",
+          "category": "безопасность",
+          "description": "Skill аудита безопасности: изолированные агенты и независимая проверка",
+          "stars": "+19.1k"
+        },
+        {
+          "repo": "rohitg00/ai-engineering-from-scratch",
+          "category": "",
+          "description": "Бесплатный курс AI-инженерии: 542 урока, 20 фаз",
+          "stars": "+16.3k"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "category": "инструмент",
+          "description": "HTML и анимации в детерминированное MP4, со skills для агентов",
+          "stars": "+15.4k"
+        },
+        {
+          "repo": "NationalSecurityAgency/ghidra",
+          "category": "инструмент",
+          "description": "Фреймворк реверс-инжиниринга от NSA: дизассемблер, декомпилятор, скрипты",
+          "stars": "+12.0k"
+        },
+        {
+          "repo": "tashfeenahmed/freellmapi",
+          "category": "инструмент",
+          "description": "Бесплатные тарифы 34 LLM-провайдеров за одним OpenAI-совместимым /v1",
+          "stars": "+10.1k"
+        },
+        {
+          "repo": "NVIDIA/OpenShell",
+          "category": "безопасность",
+          "description": "Песочница для агентов: политики на файлы, сеть и секреты на уровне ядра",
+          "stars": "+8.0k"
+        }
+      ]
+    },
+    "quarter": {
+      "caption": "Квартал с 1 октября · сумма 3 недельных срезов",
+      "items": [
+        {
+          "repo": "morluto/rea",
+          "category": "инструмент",
+          "description": "Реверс-инжиниринг через MCP",
+          "stars": "≈356k"
+        },
+        {
+          "repo": "boykopovar/AnyPS5",
+          "category": "",
+          "description": "Порт игр PS5 на Linux и Windows",
+          "stars": "≈39k"
+        },
+        {
+          "repo": "storytold/artcraft",
+          "category": "",
+          "description": "IDE для AI-картинок и видео",
+          "stars": "≈16k"
+        },
+        {
+          "repo": "debpalash/VoiceStudio",
+          "category": "локальные LLM",
+          "description": "Локальный голосовой AI",
+          "stars": "≈15k"
+        },
+        {
+          "repo": "heygen-com/hyperframes",
+          "category": "инструмент",
+          "description": "Рендер HTML в видео для агентов",
+          "stars": "≈13k"
+        },
+        {
+          "repo": "vectorize-io/hindsight",
+          "category": "память",
+          "description": "Память агента, которая учится",
+          "stars": "≈11k"
+        },
+        {
+          "repo": "mattpocock/skills",
+          "category": "skill",
+          "description": "Skills для инженеров",
+          "stars": "≈10k"
+        },
+        {
+          "repo": "paperclipai/paperclip",
+          "category": "оркестрация",
+          "description": "Оркестрация команды агентов",
+          "stars": "≈9k"
+        },
+        {
+          "repo": "DietrichGebert/ponytail",
+          "category": "skill",
+          "description": "Skill «меньше кода»",
+          "stars": "≈8k"
+        },
+        {
+          "repo": "cathrynlavery/diagram-design",
+          "category": "skill",
+          "description": "Диаграммы в HTML + SVG для агентов",
+          "stars": "≈8k"
+        }
+      ]
+    }
+  },
+  "trends": [
+    {
+      "title": "Реверс-инжиниринг не остыл, а ускорился",
+      "body": "`rea` вырос с +127.0k до +229.3k за неделю, всего у него 329144 звезды. Вслед за ним в недельный топ вошла `ghidra` (+7.6k, за месяц +12.0k) — по README `rea` нативный анализ идёт через уже установленные Hopper, Ghidra или IDA. Прошлый вывод про рекорд подтвердился: это не разовый всплеск."
+    },
+    {
+      "title": "Безопасность агентов вошла в месячный топ",
+      "body": "Новая категория: `security-audit-skill` (+19.1k за месяц) от Cloudflare ведёт аудит в шесть фаз, и каждую находку перепроверяет отдельный агент, который пытается её опровергнуть. `OpenShell` (+8.0k) от NVIDIA запускает агентов в песочнице: доступ к файлам, системным вызовам и сети ограничен политикой, а реальные ключи агент не видит."
+    },
+    {
+      "title": "Плагины собираются в каталоги",
+      "body": "В недельный топ вошёл официальный каталог `claude-plugins-official` (+4.8k), `cursor/plugins` ускорился с +1.1k до +1.7k. Выпавший из недели `mattpocock/skills` теперь ставится в Claude Code как раз через этот каталог. Прошлый тренд «наборы вместо одиночных skills» продолжился: наборы распространяются через маркетплейсы."
+    },
+    {
+      "title": "Экономия контекста вместо памяти",
+      "body": "`claude-mem` выпал из недельного топа, его место занял `context-mode` (+4.1k): вывод инструментов остаётся в песочнице, события сессии пишутся в SQLite и подтягиваются поиском по FTS5. По замеру авторов 315 KB превращаются в 5.4 KB. `hindsight` в месячном топе вырос с +25.2k до +27.6k."
+    },
+    {
+      "title": "Визуальный вывод агентов",
+      "body": "Новые в недельном топе — `artcraft` (+16.4k), IDE для генерации картинок и видео со сценами в 3D, и `diagram-design` (+7.9k), skill, который рисует диаграммы одним файлом HTML + SVG. `hyperframes` ускорился с +4.2k до +5.9k."
+    },
+    {
+      "title": "Месячный топ сменился наполовину",
+      "body": "Из месячного топа ушли `open-code-review`, `colibri`, `agent-skills` и `gods-eye-view`. Лидеры укрепились: `VoiceStudio` вырос с +36.0k до +42.0k, `paperclip` с +20.0k до +23.3k. Новые — `security-audit-skill`, `ghidra`, `freellmapi` и `OpenShell`."
+    }
+  ],
+  "picks": [
+    {
+      "title": "Аудит безопасности кода платформы агентами",
+      "body": "`security-audit-skill` раскладывает репозиторий на карту архитектуры и границ доверия, раздаёт участки изолированным агентам, а каждую находку отдаёт свежему верификатору. Результат — `confirmed`, `needs_validation` и `rejected` в findings.json, проверенном по схеме. Есть отдельные классы атак для LLM-приложений: prompt injection, агенты и инструменты, обработка вывода — по делу для Text2SQL."
+    },
+    {
+      "title": "Песочница для агентов команды",
+      "body": "`OpenShell` ограничивает каждого агента политикой на файлы, системные вызовы и сеть, а ключи подставляет только в запросы к разрешённым адресам. Изменение политики, открывающее новый доступ, проверяется формально и ждёт ревью человека. Нужен Linux или macOS на Apple Silicon и Docker, Podman или виртуализация — подходит для on-prem.",
+      "radar": true
+    },
+    {
+      "title": "Большие выборки не в контекст агента",
+      "body": "`context-mode` держит сырой вывод инструментов вне контекста, а агент пишет скрипт, который считает и печатает только итог. Для аналитического агента это прямой способ не тащить результаты запросов в окно модели. Данные сессии хранятся локально в SQLite; без --continue они удаляются сразу."
+    },
+    {
+      "title": "Диаграммы архитектуры одним файлом",
+      "body": "`diagram-design` по запросу на естественном языке рисует схему архитектуры, квадрант или sequence-диаграмму в один HTML-файл, умеет импортировать из draw.io, Mermaid и Excalidraw. Что skill отправляет по сети, описано в PRIVACY.md — для закрытого контура это стоит прочитать до установки.",
+      "radar": true
+    },
+    {
+      "title": "Каталог плагинов — не гарантия",
+      "body": "В `claude-plugins-official` прямо сказано: Anthropic не контролирует MCP-серверы и файлы внутри плагинов и не может проверить, что они не изменятся. Для общих настроек агентов команды нужен свой список проверенных плагинов."
+    }
+  ],
+  "skip": "`rea`, `ghidra` и `AnyPS5` — реверс-инжиниринг и игры; `artcraft`, `hyperframes` и `VoiceStudio` — картинки, видео и голос; `ai-job-search` — поиск работы; `freellmapi` собирает бесплатные облачные тарифы и сам помечен «только для личных экспериментов»."
+}
